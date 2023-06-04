@@ -1,0 +1,29 @@
+.subckt multiplier A3 A2 A1 A0 B3 B2 B1 B0 P7 P6 P5 P4 P3 P2 P1 P0 vdd gnd
+
+XB0A0 A0 B0 P0 vdd gnd and 
+XB0A1 A1 B0 4ba1_b0 vdd gnd and
+XB0A2 A2 B0 4ba1_b1 vdd gnd and
+XB0A3 A3 B0 4ba1_b2 vdd gnd and
+
+XB1A0 A0 B1 4ba1_a0 vdd gnd and
+XB1A1 A1 B1 4ba1_a1 vdd gnd and
+XB1A2 A2 B1 4ba1_a2 vdd gnd and
+XB1A3 A3 B1 4ba1_a3 vdd gnd and
+
+Xfb1  4ba1_a3 4ba1_a2 4ba1_a1 4ba1_a0 gnd 4ba1_b2 4ba1_b1 4ba1_b0 4ba2_b3 4ba2_b2 4ba2_b1 4ba2_b0 P1 vdd gnd fourbit_adder
+
+XB2A0 A0 B2 4ba2_a0 vdd gnd and
+XB2A1 A1 B2 4ba2_a1 vdd gnd and
+XB2A2 A2 B2 4ba2_a2 vdd gnd and 
+XB2A3 A3 B2 4ba2_a3 vdd gnd and
+
+Xfb2  4ba2_a3 4ba2_a2 4ba2_a1 4ba2_a0 4ba2_b3 4ba2_b2 4ba2_b1 4ba2_b0 4ba3_b3 4ba3_b2 4ba3_b1 4ba3_b0 P2 vdd gnd fourbit_adder
+
+XB3A0 A0 B3 4ba3_a0 vdd gnd and
+XB3A1 A1 B3 4ba3_a1 vdd gnd and
+XB3A2 A2 B3 4ba3_a2 vdd gnd and
+XB3A3 A3 B3 4ba3_a3 vdd gnd and
+
+Xfb3  4ba3_a3 4ba3_a2 4ba3_a1 4ba3_a0 4ba3_b3 4ba3_b2 4ba3_b1 4ba3_b0 P7 P6 P5 P4 P3 vdd gnd fourbit_adder
+
+.ends multiplier

@@ -1,0 +1,10 @@
+.subckt half_adder A B sum carry vdd gnd
+
+Xnand1 A B node1 vdd gnd nand
+Xnand2 A node1 node2 vdd gnd nand
+Xnand3 node1 B node2 vdd gnd nand
+Xnand4 node3 node2 sum vdd gnd nand
+Xnot node1 carry vdd gnd not
+
+.ends half_adder
+

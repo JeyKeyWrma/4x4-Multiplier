@@ -1,0 +1,66 @@
+* SPICE3 file created from half_adder.ext - technology: scmos
+
+.option scale=1u
+
+M1000 nand_0/out input1 vdd w_n10_n12# pfet w=8 l=2
++  ad=80 pd=52 as=400 ps=260
+M1001 nand_0/out nand_2/input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1002 nand_0/out input1 nand_0/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1003 nand_0/a_3_n27# nand_2/input2 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=100 ps=90
+M1004 SUM_HA nand_1/input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1005 SUM_HA nand_0/out vdd w_n10_n12# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 SUM_HA nand_1/input2 nand_1/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1007 nand_1/a_3_n27# nand_0/out gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 CARRY_HA nand_2/input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1009 CARRY_HA nand_2/input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 CARRY_HA nand_2/input2 nand_2/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1011 nand_2/a_3_n27# nand_2/input2 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 nand_2/input2 input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1013 a_59_n27# nand_2/input2 gnd Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1014 nand_2/input2 input1 vdd w_n10_n12# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1015 nand_1/input2 input2 a_59_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1016 nand_2/input2 input2 a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1017 a_3_n27# input1 gnd Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 nand_1/input2 nand_2/input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 nand_1/input2 input2 vdd w_n10_n12# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 nand_2/input2 w_n10_n12# 14.96fF
+C1 nand_0/out w_n10_n12# 5.43fF
+C2 SUM_HA w_n10_n12# 2.26fF
+C3 nand_1/input2 w_n10_n12# 5.43fF
+C4 vdd w_n10_n12# 11.28fF
+C5 input2 w_n10_n12# 6.35fF
+C6 input1 w_n10_n12# 6.35fF
+C7 CARRY_HA w_n10_n12# 2.26fF
+C8 a_59_n27# Gnd 3.20fF
+C9 a_3_n27# Gnd 3.20fF
+C10 input2 Gnd 6.06fF
+C11 nand_2/a_3_n27# Gnd 3.20fF
+C12 gnd Gnd 64.67fF
+C13 CARRY_HA Gnd 7.38fF
+C14 nand_1/a_3_n27# Gnd 3.20fF
+C15 SUM_HA Gnd 7.57fF
+C16 vdd Gnd 59.03fF
+C17 nand_1/input2 Gnd 33.30fF
+C18 nand_0/out Gnd 18.47fF
+C19 nand_0/a_3_n27# Gnd 3.20fF
+C20 input1 Gnd 52.45fF
+C21 nand_2/input2 Gnd 22.89fF

@@ -1,0 +1,74 @@
+.include 22nm_MGK.pm
+
+.param SUPPLY = 1
+.global vdd gnd
+
+.option scale=0.01u
+
+M1000 OUT_0 nand_0/out VDD w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=480 ps=312
+M1001 OUT_0 nand_0/out GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=160 ps=144
+M1002 nand_0/out A0 VDD w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1003 nand_0/out B VDD w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 nand_0/out A0 nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1005 nand_0/a_3_n27# B GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_109_13# B GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1007 a_109_34# A1 a_109_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 a_297_13# B GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1009 a_297_34# A3 VDD w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1010 OUT_1 a_109_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1011 OUT_3 a_297_34# VDD w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 a_297_34# A3 a_297_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1013 a_203_34# B VDD w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1014 OUT_3 a_297_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 a_203_34# A2 VDD w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 OUT_2 a_203_34# VDD w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 a_203_13# B GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1018 a_203_34# A2 a_203_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1019 a_109_34# B VDD w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1020 OUT_2 a_203_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1021 a_109_34# A1 VDD w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_297_34# B VDD w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 OUT_1 a_109_34# VDD w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+
+VDS vdd gnd 'SUPPLY'
+VA3 A0 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+VA2 A1 gnd pulse 0 1 10ns 100ps 100ps 8ns 25ns
+VA1 A2 gnd pulse 0 1 10ns 100ps 100ps 6ns 25ns
+VA0 A3 gnd pulse 0 1 10ns 100ps 100ps 4ns 25ns
+VA4 B  gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+*VA5 putA2 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+*VA6 inputB3 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+*VA7 inputA3 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+.tran 0.1n 200n
+
+.control
+
+run
+plot v(A0) v(A1)+2 v(A2)+4 v(A3)+6 v(B)+8
+plot v(OUT_0) v(OUT_1)+2 v(OUT_2)+4 v(OUT_3)+6
+*plot v(S0)+8 v(S1)+6 v(S2)+4 v(S3)+2 v(C) 
+.endc

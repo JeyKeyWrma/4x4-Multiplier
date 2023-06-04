@@ -1,0 +1,256 @@
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.622813e-10 targ=  1.021228e-08 trig=  1.005000e-08
+tfall               =  4.422941e-11 targ=  2.019423e-08 trig=  2.015000e-08
+temp                =  1.03255e-10
+  Measurements for Transient Analysis
+trise               =  1.710480e-10 targ=  1.022105e-08 trig=  1.005000e-08
+tfall               =  6.926314e-11 targ=  2.021926e-08 trig=  2.015000e-08
+temp                =  1.20156e-10
+  Measurements for Transient Analysis
+trise               =  1.759458e-10 targ=  1.022595e-08 trig=  1.005000e-08
+tfall               =  9.164180e-11 targ=  2.024164e-08 trig=  2.015000e-08
+temp                =  1.33794e-10
+  Measurements for Transient Analysis
+trise               =  2.166057e-10 targ=  1.026661e-08 trig=  1.005000e-08
+tfall               =  9.658944e-11 targ=  2.024659e-08 trig=  2.015000e-08
+temp                =  1.56598e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.622813e-10 targ=  1.021228e-08 trig=  1.005000e-08
+tfall               =  4.422941e-11 targ=  2.019423e-08 trig=  2.015000e-08
+temp                =  1.03255e-10
+  Measurements for Transient Analysis
+trise               =  1.710480e-10 targ=  1.022105e-08 trig=  1.005000e-08
+tfall               =  6.926314e-11 targ=  2.021926e-08 trig=  2.015000e-08
+temp                =  1.20156e-10
+  Measurements for Transient Analysis
+trise               =  1.759458e-10 targ=  1.022595e-08 trig=  1.005000e-08
+tfall               =  9.164180e-11 targ=  2.024164e-08 trig=  2.015000e-08
+temp                =  1.33794e-10
+  Measurements for Transient Analysis
+trise               =  2.166057e-10 targ=  1.026661e-08 trig=  1.005000e-08
+tfall               =  9.658944e-11 targ=  2.024659e-08 trig=  2.015000e-08
+temp                =  1.56598e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.622813e-10 targ=  1.021228e-08 trig=  1.005000e-08
+tfall               =  4.422941e-11 targ=  2.019423e-08 trig=  2.015000e-08
+temp                =  1.03255e-10
+  Measurements for Transient Analysis
+trise               =  1.710480e-10 targ=  1.022105e-08 trig=  1.005000e-08
+tfall               =  6.926314e-11 targ=  2.021926e-08 trig=  2.015000e-08
+temp                =  1.20156e-10
+  Measurements for Transient Analysis
+trise               =  1.759458e-10 targ=  1.022595e-08 trig=  1.005000e-08
+tfall               =  9.164180e-11 targ=  2.024164e-08 trig=  2.015000e-08
+temp                =  1.33794e-10
+  Measurements for Transient Analysis
+trise               =  2.166057e-10 targ=  1.026661e-08 trig=  1.005000e-08
+tfall               =  9.658944e-11 targ=  2.024659e-08 trig=  2.015000e-08
+temp                =  1.56598e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.622813e-10 targ=  1.021228e-08 trig=  1.005000e-08
+tfall               =  4.422941e-11 targ=  2.019423e-08 trig=  2.015000e-08
+temp                =  1.03255e-10
+  Measurements for Transient Analysis
+trise               =  1.710480e-10 targ=  1.022105e-08 trig=  1.005000e-08
+tfall               =  6.926314e-11 targ=  2.021926e-08 trig=  2.015000e-08
+temp                =  1.20156e-10
+  Measurements for Transient Analysis
+trise               =  1.759458e-10 targ=  1.022595e-08 trig=  1.005000e-08
+tfall               =  9.164180e-11 targ=  2.024164e-08 trig=  2.015000e-08
+temp                =  1.33794e-10
+  Measurements for Transient Analysis
+trise               =  2.166057e-10 targ=  1.026661e-08 trig=  1.005000e-08
+tfall               =  9.658944e-11 targ=  2.024659e-08 trig=  2.015000e-08
+temp                =  1.56598e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.715294e-10 targ=  1.022153e-08 trig=  1.005000e-08
+tfall               =  4.288745e-11 targ=  2.019289e-08 trig=  2.015000e-08
+temp                =  1.07208e-10
+  Measurements for Transient Analysis
+trise               =  1.880520e-10 targ=  1.023805e-08 trig=  1.005000e-08
+tfall               =  6.934242e-11 targ=  2.021934e-08 trig=  2.015000e-08
+temp                =  1.28697e-10
+  Measurements for Transient Analysis
+trise               =  2.199255e-10 targ=  1.026993e-08 trig=  1.005000e-08
+tfall               =  7.198001e-11 targ=  2.022198e-08 trig=  2.015000e-08
+temp                =  1.45953e-10
+  Measurements for Transient Analysis
+trise               =  1.732876e-10 targ=  1.022329e-08 trig=  1.005000e-08
+tfall               =  6.090501e-11 targ=  2.021091e-08 trig=  2.015000e-08
+temp                =  1.17096e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.715294e-10 targ=  1.022153e-08 trig=  1.005000e-08
+tfall               =  4.288745e-11 targ=  2.019289e-08 trig=  2.015000e-08
+temp                =  1.07208e-10
+  Measurements for Transient Analysis
+trise               =  1.880520e-10 targ=  1.023805e-08 trig=  1.005000e-08
+tfall               =  6.934242e-11 targ=  2.021934e-08 trig=  2.015000e-08
+temp                =  1.28697e-10
+  Measurements for Transient Analysis
+trise               =  2.199255e-10 targ=  1.026993e-08 trig=  1.005000e-08
+tfall               =  7.198001e-11 targ=  2.022198e-08 trig=  2.015000e-08
+temp                =  1.45953e-10
+  Measurements for Transient Analysis
+trise               =  1.732876e-10 targ=  1.022329e-08 trig=  1.005000e-08
+tfall               =  6.090501e-11 targ=  2.021091e-08 trig=  2.015000e-08
+temp                =  1.17096e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.715294e-10 targ=  1.022153e-08 trig=  1.005000e-08
+tfall               =  4.288745e-11 targ=  2.019289e-08 trig=  2.015000e-08
+temp                =  1.07208e-10
+  Measurements for Transient Analysis
+trise               =  1.880520e-10 targ=  1.023805e-08 trig=  1.005000e-08
+tfall               =  6.934242e-11 targ=  2.021934e-08 trig=  2.015000e-08
+temp                =  1.28697e-10
+  Measurements for Transient Analysis
+trise               =  2.199255e-10 targ=  1.026993e-08 trig=  1.005000e-08
+tfall               =  7.198001e-11 targ=  2.022198e-08 trig=  2.015000e-08
+temp                =  1.45953e-10
+  Measurements for Transient Analysis
+trise               =  1.732876e-10 targ=  1.022329e-08 trig=  1.005000e-08
+tfall               =  6.090501e-11 targ=  2.021091e-08 trig=  2.015000e-08
+temp                =  1.17096e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11
+  Measurements for Transient Analysis
+trise               =  8.550785e-11 targ=  1.013551e-08 trig=  1.005000e-08
+tfall               =  1.200043e-11 targ=  2.016200e-08 trig=  2.015000e-08
+temp                =  4.87541e-11
+  Measurements for Transient Analysis
+trise               =  1.715294e-10 targ=  1.022153e-08 trig=  1.005000e-08
+tfall               =  4.288745e-11 targ=  2.019289e-08 trig=  2.015000e-08
+temp                =  1.07208e-10
+  Measurements for Transient Analysis
+trise               =  1.880520e-10 targ=  1.023805e-08 trig=  1.005000e-08
+tfall               =  6.934242e-11 targ=  2.021934e-08 trig=  2.015000e-08
+temp                =  1.28697e-10
+  Measurements for Transient Analysis
+trise               =  2.199255e-10 targ=  1.026993e-08 trig=  1.005000e-08
+tfall               =  7.198001e-11 targ=  2.022198e-08 trig=  2.015000e-08
+temp                =  1.45953e-10
+  Measurements for Transient Analysis
+trise               =  1.732876e-10 targ=  1.022329e-08 trig=  1.005000e-08
+tfall               =  6.090501e-11 targ=  2.021091e-08 trig=  2.015000e-08
+temp                =  1.17096e-10
+  Measurements for Transient Analysis
+trise               =  1.817235e-10 targ=  1.023172e-08 trig=  1.005000e-08
+tfall               =  7.320446e-11 targ=  2.022320e-08 trig=  2.015000e-08
+temp                =  1.27464e-10
+  Measurements for Transient Analysis
+trise               =  1.661864e-10 targ=  1.021619e-08 trig=  1.005000e-08
+tfall               =  6.196023e-11 targ=  2.021196e-08 trig=  2.015000e-08
+temp                =  1.14073e-10
+  Measurements for Transient Analysis
+trise               =  1.319229e-10 targ=  1.018192e-08 trig=  1.005000e-08
+tfall               =  3.005497e-11 targ=  2.018005e-08 trig=  2.015000e-08
+temp                =  8.09889e-11

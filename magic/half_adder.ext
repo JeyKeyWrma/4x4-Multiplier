@@ -1,0 +1,74 @@
+timestamp 1669587295
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use nand nand_2 1 0 224 0 1 0
+use nand nand_1 1 0 168 0 1 0
+use nand nand_0 1 0 112 0 1 0
+node "m1_207_n40#" 0 3572 207 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 84 50 0 0 0 0
+node "m1_153_n40#" 0 3948 153 -40 m1 0 0 0 0 0 0 0 0 0 0 0 0 84 50 0 0 0 0
+node "CARRY_HA" 0 376 261 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 8 12 0 0 0 0
+node "SUM_HA" 0 564 205 -18 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "a_59_n27#" 158 3196 59 -27 ndiff 40 36 0 0 0 0 0 0 0 0 0 0 100 58 0 0 0 0
+node "a_161_n18#" 115 5588 161 -18 pc 0 0 0 0 28 28 0 0 0 0 0 0 64 40 0 0 0 0
+node "a_3_n27#" 158 3196 3 -27 ndiff 40 36 0 0 0 0 0 0 0 0 0 0 100 58 0 0 0 0
+node "gnd" 160 25004 -4 -27 ndc 40 36 0 0 0 0 0 0 0 0 0 0 572 294 0 0 0 0
+node "a_59_n6#" 610 27422 59 -6 pdiff 20 18 80 52 42 42 0 0 0 0 0 0 372 202 716 366 0 0
+node "vdd" 886 22936 -4 -6 pdc 0 0 160 104 0 0 0 0 0 0 0 0 736 376 0 0 0 0
+node "a_3_n6#" 4155 80700 3 -6 pdiff 20 18 80 52 644 640 0 0 0 0 0 0 376 196 0 0 0 0
+node "input2" 1980 29044 30 -35 p 0 0 0 0 332 336 0 0 0 0 0 0 0 0 0 0 0 0
+node "input1" 2756 49906 1 -35 p 0 0 0 0 462 466 0 0 0 0 0 0 0 0 0 0 0 0
+node "w_208_n12#" 4556 0 208 -12 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 220 62
+node "w_152_n12#" 4556 0 152 -12 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 220 62
+node "w_n10_n12#" 14534 0 -10 -12 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2320 272
+cap "a_59_n6#" "w_n10_n12#" 2256
+cap "vdd" "w_n10_n12#" 4512
+cap "a_3_n6#" "m1_207_n40#" 240
+cap "vdd" "input1" 240
+cap "input2" "w_n10_n12#" 6352
+cap "a_3_n6#" "w_n10_n12#" 5432
+cap "a_59_n6#" "gnd" 720
+cap "input2" "a_59_n6#" 240
+cap "a_3_n6#" "a_59_n6#" 304
+cap "vdd" "input2" 480
+cap "m1_207_n40#" "a_59_n6#" 720
+cap "input1" "w_n10_n12#" 3176
+cap "a_3_n6#" "gnd" 240
+cap "a_3_n6#" "input2" 240
+device mosfet nfet 86 -27 87 -26 2 4 "Gnd!" "input2" 4 0 "a_59_n27#" 4 0 "a_59_n6#" 4 0
+device mosfet nfet 57 -27 58 -26 2 4 "Gnd!" "a_3_n6#" 4 0 "gnd" 4 0 "a_59_n27#" 4 0
+device mosfet nfet 30 -27 31 -26 2 4 "Gnd!" "input2" 4 0 "a_3_n27#" 4 0 "a_3_n6#" 4 0
+device mosfet nfet 1 -27 2 -26 2 4 "Gnd!" "input1" 4 0 "gnd" 4 0 "a_3_n27#" 4 0
+device mosfet pfet 86 -6 87 -5 2 8 "w_n10_n12#" "input2" 4 0 "vdd" 8 0 "a_59_n6#" 8 0
+device mosfet pfet 57 -6 58 -5 2 8 "w_n10_n12#" "a_3_n6#" 4 0 "vdd" 8 0 "a_59_n6#" 8 0
+device mosfet pfet 30 -6 31 -5 2 8 "w_n10_n12#" "input2" 4 0 "vdd" 8 0 "a_3_n6#" 8 0
+device mosfet pfet 1 -6 2 -5 2 8 "w_n10_n12#" "input1" 4 0 "vdd" 8 0 "a_3_n6#" 8 0
+subcap "a_3_n6#" -75436
+subcap "input2" -22988
+cap "nand_0/input2" "nand_1/vdd" 240
+cap "nand_0/input1" "nand_1/gnd" 240
+cap "nand_1/out" "nand_1/input2" 240
+merge "nand_0/input2" "input1" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_0/vdd" "vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "vdd" "nand_1/vdd"
+merge "nand_1/vdd" "nand_2/vdd"
+merge "nand_0/w_n10_n12#" "w_n10_n12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 -96
+merge "w_n10_n12#" "nand_1/w_n10_n12#"
+merge "nand_1/w_n10_n12#" "w_152_n12#"
+merge "w_152_n12#" "nand_2/w_n10_n12#"
+merge "nand_2/w_n10_n12#" "w_208_n12#"
+merge "nand_0/out" "nand_1/input1" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "nand_1/input1" "a_161_n18#"
+merge "nand_1/input2" "a_59_n6#" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_2/out" "CARRY_HA" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "nand_0/gnd" "gnd" -2444 0 0 0 0 0 0 0 0 0 0 0 0 -52 -42 0 0 0 0
+merge "gnd" "nand_1/gnd"
+merge "nand_1/gnd" "m1_153_n40#"
+merge "m1_153_n40#" "nand_2/gnd"
+merge "nand_2/gnd" "m1_207_n40#"
+merge "nand_2/input2" "nand_2/input1" -2150 0 0 0 0 -10 -22 0 0 0 0 0 0 0 0 0 0 0 0
+merge "nand_2/input1" "nand_0/input1"
+merge "nand_0/input1" "a_3_n6#"
+merge "nand_1/out" "SUM_HA" -376 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

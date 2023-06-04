@@ -1,0 +1,70 @@
+timestamp 1669610973
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use half_adder half_adder_0 1 0 12 0 1 55
+use full_adder full_adder_0 1 0 0 0 1 -113
+use full_adder full_adder_1 1 0 0 0 1 -214
+use full_adder full_adder_2 1 0 0 0 1 -316
+node "C_OUT" 0 564 665 -278 m1 0 0 0 0 0 0 0 0 0 0 0 0 12 14 0 0 0 0
+node "m1_276_15#" 10 152468 276 15 m1 0 0 0 0 0 0 0 0 0 0 0 0 3244 1630 0 0 0 0
+node "GND" 0 2068 3 15 m1 0 0 0 0 0 0 0 0 0 0 0 0 44 30 0 0 0 0
+node "S0" 0 423 219 38 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "VDD" 5 71440 -16 -249 m1 0 0 0 0 0 0 0 0 0 0 0 0 1520 768 0 0 0 0
+node "B3" 48 1272 43 -295 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "A3" 48 1272 14 -295 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "S3" 36 1034 502 -277 p 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_303_n242#" 227 39382 303 -242 pc 0 0 0 0 46 46 0 0 0 0 0 0 68 50 1704 860 0 0
+node "B2" 48 1272 43 -193 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "A2" 48 1272 14 -193 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "S2" 36 1034 502 -175 p 0 0 0 0 6 10 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_305_n140#" 203 38150 305 -140 pc 0 0 0 0 42 42 0 0 0 0 0 0 60 46 1684 850 0 0
+node "B1" 48 1272 43 -92 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "A1" 48 1272 14 -92 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "S1" 48 1272 501 -74 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_311_n39#" 116 15200 311 -39 pc 0 0 0 0 28 28 0 0 0 0 0 0 68 50 528 272 0 0
+node "B0" 60 1510 43 22 p 0 0 0 0 10 14 0 0 0 0 0 0 0 0 0 0 0 0
+node "A0" 72 1748 14 22 p 0 0 0 0 12 16 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_305_n140#" "m1_276_15#" 720
+cap "a_303_n242#" "m1_276_15#" 720
+subcap "a_303_n242#" -13940
+cap "full_adder_2/Cin" "full_adder_2/half_adder_1/input1" 1292
+cap "a_303_n242#" "full_adder_2/half_adder_1/input1" 988
+subcap "a_305_n140#" -12008
+cap "full_adder_1/half_adder_1/input1" "full_adder_1/Cin" 152
+subcap "a_311_n39#" -9254
+cap "full_adder_0/Cin" "full_adder_0/half_adder_1/input1" 152
+subcap "m1_276_15#" -139308
+cap "half_adder_0/nand_2/gnd" "half_adder_0/CARRY_HA" 720
+cap "half_adder_0/nand_2/a_3_n27#" "half_adder_0/CARRY_HA" 720
+cap "half_adder_0/nand_2/input2" "half_adder_0/CARRY_HA" 152
+merge "half_adder_0/vdd" "full_adder_0/VDD" -2256 0 0 0 0 0 0 0 0 0 0 0 0 -48 -56 0 0 0 0
+merge "full_adder_0/VDD" "full_adder_1/VDD"
+merge "full_adder_1/VDD" "full_adder_2/VDD"
+merge "full_adder_2/VDD" "VDD"
+merge "half_adder_0/SUM_HA" "S0" -141 0 0 0 0 0 0 0 0 0 0 0 0 -3 -8 0 0 0 0
+merge "full_adder_0/SUM_FA" "S1" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_0/gnd" "GND" -1128 0 0 0 0 0 0 0 0 0 0 0 0 -24 -20 0 0 0 0
+merge "half_adder_0/nand_2/gnd" "full_adder_0/or_0/inverter_0/gnd" -3196 0 0 0 0 0 0 0 0 0 0 0 0 -68 -66 0 0 0 0
+merge "full_adder_0/or_0/inverter_0/gnd" "full_adder_1/or_0/gnd"
+merge "full_adder_1/or_0/gnd" "full_adder_2/or_0/inverter_0/gnd"
+merge "full_adder_2/or_0/inverter_0/gnd" "m1_276_15#"
+merge "full_adder_1/SUM_FA" "S2" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_0/CARRY_HA" "full_adder_0/Cin" -2222 0 0 0 0 -2 -6 0 0 0 0 0 0 -16 -16 0 0 0 0
+merge "full_adder_0/Cin" "a_311_n39#"
+merge "full_adder_2/SUM_FA" "S3" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_1/CARRY_FA" "full_adder_2/Cin" -24538 0 0 0 0 -4 -8 0 0 0 0 0 0 -16 -16 -1142 -580 0 0
+merge "full_adder_2/Cin" "a_303_n242#"
+merge "half_adder_0/input2" "B0" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_0/input1" "A0" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_0/input2" "B1" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_0/input1" "A1" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_0/CARRY_FA" "full_adder_1/Cin" -23060 0 0 0 0 -4 -8 0 0 0 0 0 0 -8 -12 -1144 -578 0 0
+merge "full_adder_1/Cin" "a_305_n140#"
+merge "full_adder_1/input2" "B2" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_1/input1" "A2" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_2/input2" "B3" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_2/input1" "A3" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "full_adder_2/CARRY_FA" "C_OUT" -188 0 0 0 0 0 0 0 0 0 0 0 0 -4 -10 0 0 0 0

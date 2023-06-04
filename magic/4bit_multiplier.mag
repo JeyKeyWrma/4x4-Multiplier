@@ -1,0 +1,212 @@
+magic
+tech scmos
+timestamp 1669623720
+<< polysilicon >>
+rect 35 345 39 347
+rect 63 345 65 347
+rect 834 296 838 298
+rect 865 295 867 297
+rect 958 295 960 297
+rect 1053 295 1056 297
+rect 1145 295 1148 297
+rect 520 249 526 251
+rect 33 231 36 233
+rect 62 231 68 233
+rect 519 148 524 150
+rect 33 130 37 132
+rect 62 130 66 132
+rect 840 116 843 118
+rect 869 115 873 117
+rect 962 115 966 117
+rect 1056 115 1060 117
+rect 1150 115 1154 117
+rect 520 46 525 48
+rect 33 28 38 30
+rect 62 28 67 30
+rect 65 25 67 28
+rect 40 -95 45 -93
+rect 68 -95 73 -93
+rect 526 -191 530 -189
+rect 840 -201 843 -199
+rect 869 -202 873 -200
+rect 963 -202 967 -200
+rect 1057 -202 1061 -200
+rect 1151 -202 1155 -200
+rect 39 -209 44 -207
+rect 68 -209 73 -207
+rect 525 -292 531 -290
+rect 39 -310 44 -308
+rect 68 -310 73 -308
+rect 525 -394 530 -392
+rect 39 -412 44 -410
+rect 68 -412 73 -410
+rect 59 -633 64 -631
+rect 87 -633 92 -631
+rect 847 -709 851 -707
+rect 875 -710 879 -708
+rect 969 -710 973 -708
+rect 1063 -710 1067 -708
+rect 1157 -710 1161 -708
+rect 545 -729 549 -727
+rect 58 -747 63 -745
+rect 87 -747 92 -745
+rect 545 -830 550 -828
+rect 58 -848 63 -846
+rect 87 -848 92 -846
+rect 544 -932 550 -930
+rect 58 -950 63 -948
+rect 87 -950 92 -948
+<< metal1 >>
+rect 292 390 806 394
+rect 237 361 240 364
+rect 802 332 806 390
+rect 699 328 703 332
+rect 802 328 830 332
+rect 802 152 806 328
+rect 909 297 917 300
+rect 1001 297 1009 300
+rect 1097 297 1104 300
+rect 1191 297 1193 300
+rect 1200 279 1227 283
+rect 700 148 703 152
+rect 802 148 836 152
+rect 0 -46 4 78
+rect 683 45 690 49
+rect 0 -50 9 -46
+rect 243 -79 247 -76
+rect 699 -102 703 30
+rect 802 -165 806 148
+rect 914 117 919 120
+rect 1006 116 1011 119
+rect 1100 117 1105 120
+rect 1196 117 1201 120
+rect 1222 103 1226 279
+rect 1205 99 1226 103
+rect 802 -169 834 -165
+rect 6 -584 10 -362
+rect 689 -395 695 -391
+rect 6 -588 29 -584
+rect 262 -617 267 -614
+rect 696 -640 700 -410
+rect 803 -673 807 -169
+rect 915 -200 919 -197
+rect 1007 -200 1011 -197
+rect 1103 -200 1107 -197
+rect 1197 -200 1201 -197
+rect 1222 -214 1226 99
+rect 1206 -218 1226 -214
+rect 803 -677 841 -673
+rect 921 -708 925 -705
+rect 1013 -708 1017 -705
+rect 1109 -708 1113 -705
+rect 1203 -708 1207 -705
+rect 1222 -722 1226 -218
+rect 724 -729 850 -725
+rect 1211 -726 1226 -722
+rect 707 -933 711 -929
+<< polycontact >>
+rect 64 21 68 25
+use 4bit_adder  4bit_adder_0
+timestamp 1669610973
+transform 1 0 16 0 1 323
+box -16 -323 687 88
+use 4bit_and  4bit_and_0
+timestamp 1669618720
+transform 1 0 826 0 1 276
+box 0 0 376 59
+use 4bit_and  4bit_and_1
+timestamp 1669618720
+transform 1 0 831 0 1 96
+box 0 0 376 59
+use 4bit_adder  4bit_adder_1
+timestamp 1669610973
+transform 1 0 22 0 1 -117
+box -16 -323 687 88
+use 4bit_and  4bit_and_2
+timestamp 1669618720
+transform 1 0 832 0 1 -221
+box 0 0 376 59
+use 4bit_adder  4bit_adder_2
+timestamp 1669610973
+transform 1 0 41 0 1 -655
+box -16 -323 687 88
+use 4bit_and  4bit_and_3
+timestamp 1669618720
+transform 1 0 838 0 1 -729
+box 0 0 376 59
+<< labels >>
+rlabel polysilicon 866 296 866 296 1 A0
+rlabel polysilicon 959 296 959 296 1 A1
+rlabel polysilicon 1054 296 1054 296 1 A2
+rlabel polysilicon 1146 296 1146 296 1 A3
+rlabel metal1 1192 298 1192 298 1 4ba1_a3
+rlabel metal1 1103 298 1103 298 1 4ba1_a2
+rlabel metal1 1008 298 1008 298 1 4ba1_a1
+rlabel metal1 916 298 916 298 1 4ba1_a0
+rlabel polysilicon 835 297 835 297 1 B1
+rlabel polysilicon 841 117 841 117 1 B0
+rlabel polysilicon 1151 116 1151 116 1 A3
+rlabel polysilicon 1057 116 1057 116 1 A2
+rlabel polysilicon 963 116 963 116 1 A1
+rlabel polysilicon 870 116 870 116 1 A0
+rlabel metal1 1200 118 1200 118 1 4ba1_b2
+rlabel metal1 1104 118 1104 118 1 4ba1_b1
+rlabel metal1 1010 117 1010 117 1 4ba1_b0
+rlabel metal1 918 118 918 118 1 P0
+rlabel polysilicon 38 346 38 346 1 4ba1_a0
+rlabel polysilicon 64 346 64 346 1 4ba1_b0
+rlabel metal1 239 362 239 362 1 P1
+rlabel polysilicon 35 232 35 232 1 4ba1_a1
+rlabel polysilicon 67 232 67 232 1 4ba1_b1
+rlabel polysilicon 525 250 525 250 1 4ba2_b0
+rlabel polysilicon 36 131 36 131 1 4ba1_a2
+rlabel polysilicon 65 131 65 131 1 4ba1_b2
+rlabel polysilicon 523 149 523 149 1 4ba2_b1
+rlabel polysilicon 37 29 37 29 1 4ba1_a3
+rlabel polysilicon 524 47 524 47 1 4ba2_b2
+rlabel metal1 689 47 689 47 1 4ba2_b3
+rlabel polysilicon 841 -200 841 -200 1 B2
+rlabel polysilicon 870 -201 870 -201 1 A0
+rlabel polysilicon 964 -201 964 -201 1 A1
+rlabel polysilicon 1058 -201 1058 -201 1 A2
+rlabel polysilicon 1152 -201 1152 -201 1 A3
+rlabel metal1 918 -199 918 -199 1 4ba2_a0
+rlabel metal1 1010 -199 1010 -199 1 4ba2_a1
+rlabel metal1 1106 -199 1106 -199 1 4ba2_a2
+rlabel metal1 1200 -199 1200 -199 1 4ba2_a3
+rlabel polysilicon 44 -94 44 -94 1 4ba2_a0
+rlabel polysilicon 72 -94 72 -94 1 4ba2_b0
+rlabel polysilicon 43 -208 43 -208 1 4ba2_a1
+rlabel polysilicon 72 -208 72 -208 1 4ba2_b1
+rlabel polysilicon 43 -309 43 -309 1 4ba2_a2
+rlabel polysilicon 72 -309 72 -309 1 4ba2_b2
+rlabel polysilicon 43 -411 43 -411 1 4ba2_a3
+rlabel polysilicon 72 -411 72 -411 1 4ba2_b3
+rlabel metal1 246 -77 246 -77 1 P2
+rlabel polysilicon 529 -190 529 -190 1 4ba3_b0
+rlabel polysilicon 530 -291 530 -291 1 4ba3_b1
+rlabel polysilicon 529 -393 529 -393 1 4ba3_b2
+rlabel metal1 694 -393 694 -393 1 4ba3_b3
+rlabel polysilicon 848 -708 848 -708 1 B3
+rlabel polysilicon 876 -709 876 -709 1 A0
+rlabel metal1 924 -707 924 -707 1 4ba3_a0
+rlabel polysilicon 970 -709 970 -709 1 A1
+rlabel metal1 1016 -707 1016 -707 1 4ba3_a1
+rlabel polysilicon 1064 -709 1064 -709 1 A2
+rlabel metal1 1112 -707 1112 -707 1 4ba3_a2
+rlabel polysilicon 1158 -709 1158 -709 1 A3
+rlabel metal1 1206 -707 1206 -707 1 4ba3_a3
+rlabel polysilicon 63 -632 63 -632 1 4ba3_a0
+rlabel polysilicon 91 -632 91 -632 1 4ba3_b0
+rlabel polysilicon 62 -746 62 -746 1 4ba3_a1
+rlabel polysilicon 91 -746 91 -746 1 4ba3_b1
+rlabel polysilicon 62 -847 62 -847 1 4ba3_a2
+rlabel polysilicon 91 -847 91 -847 1 4ba3_b2
+rlabel polysilicon 62 -949 62 -949 1 4ba3_a3
+rlabel polysilicon 91 -949 91 -949 1 4ba3_b3
+rlabel metal1 266 -615 266 -615 1 P3
+rlabel polysilicon 548 -728 548 -728 1 P4
+rlabel polysilicon 549 -829 549 -829 1 P5
+rlabel polysilicon 549 -931 549 -931 1 P6
+rlabel metal1 710 -931 710 -931 1 P7
+<< end >>

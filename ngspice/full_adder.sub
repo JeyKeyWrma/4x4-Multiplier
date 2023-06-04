@@ -1,0 +1,7 @@
+.subckt full_adder A B C sum cout vdd gnd
+
+Xhf1 A B node1 node3 vdd gnd half_adder
+Xhf2 C node1 sum node2 vdd gnd half_adder
+Xor node3 node2 cout vdd gnd or
+
+.ends full_adder

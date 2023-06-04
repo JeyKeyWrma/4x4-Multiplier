@@ -1,0 +1,92 @@
+magic
+tech scmos
+timestamp 1669610973
+<< polysilicon >>
+rect 14 22 20 24
+rect 43 22 48 24
+rect 315 -39 321 -37
+rect 501 -74 505 -72
+rect 14 -92 18 -90
+rect 43 -92 47 -90
+rect 309 -140 322 -138
+rect 502 -175 505 -173
+rect 14 -193 18 -191
+rect 43 -193 47 -191
+rect 307 -242 322 -240
+rect 502 -277 505 -275
+rect 14 -295 18 -293
+rect 43 -295 47 -293
+<< metal1 >>
+rect -16 67 1 71
+rect -16 -42 -12 67
+rect 219 38 222 41
+rect 3 15 14 19
+rect 276 15 687 19
+rect 306 -39 311 -35
+rect -16 -46 4 -42
+rect -16 -143 -12 -46
+rect 683 -90 687 15
+rect 653 -94 687 -90
+rect 305 -136 309 -133
+rect -16 -147 5 -143
+rect -16 -245 -12 -147
+rect 662 -176 665 -172
+rect 683 -191 687 -94
+rect 653 -195 687 -191
+rect 303 -238 307 -236
+rect -16 -249 2 -245
+rect 665 -278 668 -274
+rect 683 -293 687 -195
+rect 655 -297 687 -293
+<< metal2 >>
+rect 250 -11 254 37
+rect 250 -15 306 -11
+rect 302 -35 306 -15
+rect 664 -129 668 -75
+rect 309 -133 668 -129
+rect 665 -232 669 -176
+rect 307 -236 669 -232
+<< polycontact >>
+rect 311 -39 315 -35
+rect 305 -140 309 -136
+rect 303 -242 307 -238
+<< m2contact >>
+rect 250 37 254 41
+rect 302 -39 306 -35
+rect 664 -75 668 -71
+rect 305 -133 309 -129
+rect 665 -176 669 -172
+rect 303 -236 307 -232
+use half_adder  half_adder_0
+timestamp 1669587295
+transform 1 0 12 0 1 55
+box -12 -55 268 33
+use full_adder  full_adder_0
+timestamp 1669588506
+transform 1 0 0 0 1 -113
+box 0 -7 666 88
+use full_adder  full_adder_1
+timestamp 1669588506
+transform 1 0 0 0 1 -214
+box 0 -7 666 88
+use full_adder  full_adder_2
+timestamp 1669588506
+transform 1 0 0 0 1 -316
+box 0 -7 666 88
+<< labels >>
+rlabel metal1 3 15 14 19 1 GND
+rlabel metal1 -14 68 -14 68 3 VDD
+rlabel polysilicon 18 23 18 23 1 A0
+rlabel polysilicon 46 23 46 23 1 B0
+rlabel metal1 221 40 221 40 1 S0
+rlabel polysilicon 504 -73 504 -73 1 S1
+rlabel polysilicon 504 -174 504 -174 1 S2
+rlabel polysilicon 504 -276 504 -276 1 S3
+rlabel polysilicon 17 -91 17 -91 1 A1
+rlabel polysilicon 46 -91 46 -91 1 B1
+rlabel polysilicon 17 -192 17 -192 1 A2
+rlabel polysilicon 46 -192 46 -192 1 B2
+rlabel polysilicon 17 -294 17 -294 1 A3
+rlabel polysilicon 46 -294 46 -294 1 B3
+rlabel metal1 667 -276 667 -276 1 C_OUT
+<< end >>

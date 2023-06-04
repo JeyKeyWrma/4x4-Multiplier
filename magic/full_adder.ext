@@ -1,0 +1,52 @@
+timestamp 1669588506
+version 8.3
+tech scmos
+style lambda=1.0(scna20_orb)
+scale 1000 1 100
+resistclasses 26670 59550 23860 19690 27260 2000000 49 26 2505830
+use or or_0 1 0 572 0 1 55
+use half_adder half_adder_0 1 0 12 0 1 55
+use half_adder half_adder_1 1 0 292 0 1 55
+node "m1_556_15#" 0 3008 556 15 m1 0 0 0 0 0 0 0 0 0 0 0 0 64 40 0 0 0 0
+node "m1_280_15#" 0 1692 280 15 m1 0 0 0 0 0 0 0 0 0 0 0 0 36 26 0 0 0 0
+node "GND" 0 329 6 15 m1 0 0 0 0 0 0 0 0 0 0 0 0 7 12 0 0 0 0
+node "CARRY_FA" 0 752 662 38 m1 0 0 0 0 0 0 0 0 0 0 0 0 16 16 0 0 0 0
+node "VDD" 0 423 0 69 m1 0 0 0 0 0 0 0 0 0 0 0 0 9 12 0 0 0 0
+node "input2" 48 1272 39 34 p 0 0 0 0 8 12 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_561_37#" 151 5550 561 37 pc 0 0 0 0 34 34 0 0 0 0 0 0 48 32 0 0 0 0
+node "SUM_FA" 76 2618 496 38 pc 0 0 0 0 22 22 0 0 0 0 0 0 16 16 0 0 0 0
+node "a_273_37#" 4772 96152 273 37 pc 0 0 0 0 808 808 0 0 0 0 0 0 16 16 0 0 0 0
+node "input1" 72 1748 9 37 p 0 0 0 0 12 16 0 0 0 0 0 0 0 0 0 0 0 0
+node "Cin" 24 796 320 74 p 0 0 0 0 4 8 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_216_38#" 1372 28322 216 38 pc 0 0 0 0 238 238 0 0 0 0 0 0 16 16 0 0 0 0
+node "w_556_43#" 5012 0 556 43 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 200 60
+node "w_276_43#" 4556 0 276 43 nw 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 220 62
+subcap "a_273_37#" -77684
+cap "half_adder_0/w_208_n12#" "half_adder_0/SUM_HA" 4760
+cap "half_adder_0/SUM_HA" "half_adder_0/nand_2/vdd" 240
+cap "half_adder_0/nand_2/gnd" "half_adder_0/CARRY_HA" 240
+subcap "SUM_FA" -357
+cap "or_0/inverter_0/gnd" "or_0/input2" 240
+merge "half_adder_1/CARRY_HA" "or_0/input1" -934 0 0 0 0 -2 -6 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "or_0/input1" "a_561_37#"
+merge "half_adder_1/input2" "Cin" -320 0 0 0 0 0 -4 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_1/input1" "half_adder_0/SUM_HA" -6167 0 0 0 0 -4 -8 0 0 0 0 0 0 -13 -16 0 0 0 0
+merge "half_adder_0/SUM_HA" "a_216_38#"
+merge "half_adder_1/nand_2/gnd" "or_0/gnd" -1504 0 0 0 0 0 0 0 0 0 0 0 0 -32 -32 0 0 0 0
+merge "or_0/gnd" "m1_556_15#"
+merge "half_adder_0/gnd" "GND" -47 0 0 0 0 0 0 0 0 0 0 0 0 -1 -8 0 0 0 0
+merge "half_adder_1/gnd" "half_adder_0/nand_2/gnd" -564 0 0 0 0 0 0 0 0 0 0 0 0 -4 -18 0 0 0 0
+merge "half_adder_0/nand_2/gnd" "m1_280_15#"
+merge "half_adder_1/w_208_n12#" "or_0/w_n10_n12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -140 -94
+merge "or_0/w_n10_n12#" "w_556_43#"
+merge "half_adder_1/SUM_HA" "SUM_FA" -611 0 0 0 0 0 0 0 0 0 0 0 0 -13 -19 0 0 0 0
+merge "half_adder_0/vdd" "VDD" -282 0 0 0 0 0 0 0 0 0 0 0 0 -6 -10 0 0 0 0
+merge "or_0/out" "CARRY_FA" -376 0 0 0 0 0 0 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "or_0/input2" "half_adder_0/CARRY_HA" -696 0 0 0 0 0 -4 0 0 0 0 0 0 -8 -12 0 0 0 0
+merge "half_adder_0/CARRY_HA" "a_273_37#"
+merge "half_adder_0/input1" "input1" -796 0 0 0 0 -4 -8 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_0/input2" "input2" -558 0 0 0 0 -2 -6 0 0 0 0 0 0 0 0 0 0 0 0
+merge "half_adder_1/w_n10_n12#" "half_adder_0/w_208_n12#" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -160 -96
+merge "half_adder_0/w_208_n12#" "w_276_43#"
+merge "half_adder_1/nand_2/vdd" "or_0/vdd" 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0
+merge "half_adder_1/vdd" "half_adder_0/nand_2/vdd" -376 0 0 0 0 0 0 0 0 0 0 0 0 0 -8 0 0 0 0

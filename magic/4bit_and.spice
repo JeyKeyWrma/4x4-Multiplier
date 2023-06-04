@@ -1,0 +1,80 @@
+* SPICE3 file created from 4bit_and.ext - technology: scmos
+
+.option scale=1u
+
+M1000 OUT_0 nand_0/out VDD w_87_27# pfet w=8 l=2
++  ad=40 pd=26 as=480 ps=312
+M1001 OUT_0 nand_0/out GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=160 ps=144
+M1002 nand_0/out A0 VDD w_87_27# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1003 nand_0/out B VDD w_87_27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 nand_0/out A0 nand_0/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1005 nand_0/a_3_n27# B GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 a_109_13# B GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1007 a_109_34# A1 a_109_13# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1008 a_297_13# B GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1009 a_297_34# A3 VDD w_87_27# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1010 OUT_1 a_109_34# GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1011 OUT_3 a_297_34# VDD w_87_27# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1012 a_297_34# A3 a_297_13# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1013 a_203_34# B VDD w_87_27# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1014 OUT_3 a_297_34# GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1015 a_203_34# A2 VDD w_87_27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 OUT_2 a_203_34# VDD w_87_27# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1017 a_203_13# B GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1018 a_203_34# A2 a_203_13# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1019 a_109_34# B VDD w_87_27# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1020 OUT_2 a_203_34# GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1021 a_109_34# A1 VDD w_87_27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1022 a_297_34# B VDD w_87_27# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1023 OUT_1 a_109_34# VDD w_87_27# pfet w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+C0 w_87_27# A0 3.18fF
+C1 w_87_27# a_297_34# 5.43fF
+C2 w_87_27# VDD 13.54fF
+C3 w_87_27# A1 3.18fF
+C4 w_87_27# a_203_34# 5.43fF
+C5 w_87_27# a_109_34# 5.43fF
+C6 w_87_27# A3 3.18fF
+C7 w_87_27# A2 3.18fF
+C8 w_87_27# B 12.70fF
+C9 w_87_27# nand_0/out 5.43fF
+C10 GND Gnd 79.10fF
+C11 VDD Gnd 73.27fF
+C12 a_297_13# Gnd 3.20fF
+C13 OUT_3 Gnd 2.35fF
+C14 a_203_13# Gnd 3.20fF
+C15 a_297_34# Gnd 19.27fF
+C16 OUT_2 Gnd 2.35fF
+C17 a_109_13# Gnd 3.20fF
+C18 A3 Gnd 6.35fF
+C19 a_203_34# Gnd 19.27fF
+C20 OUT_1 Gnd 2.07fF
+C21 A2 Gnd 6.35fF
+C22 a_109_34# Gnd 19.27fF
+C23 A1 Gnd 6.35fF
+C24 B Gnd 14.93fF
+C25 nand_0/a_3_n27# Gnd 3.20fF
+C26 A0 Gnd 7.15fF
+C27 nand_0/out Gnd 19.73fF

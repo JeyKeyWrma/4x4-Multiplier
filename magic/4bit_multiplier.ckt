@@ -1,0 +1,1171 @@
+.include 22nm_MGK.pm
+
+.param SUPPLY = 1
+.global vdd gnd
+
+.option scale=0.01u
+
+
+M1000 4bit_adder_0/full_adder_1/Cin 4bit_adder_0/full_adder_0/or_0/inverter_0/input VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=11040 ps=7176
+M1001 4bit_adder_0/full_adder_1/Cin 4bit_adder_0/full_adder_0/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=3280 ps=2952
+M1002 4bit_adder_0/full_adder_0/or_0/inverter_0/input 4bit_adder_0/full_adder_0/or_0/input2 4bit_adder_0/full_adder_0/or_0/a_3_n6# 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1003 4bit_adder_0/full_adder_0/or_0/a_3_n6# 4bit_adder_0/full_adder_0/or_0/input1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 4bit_adder_0/full_adder_0/or_0/inverter_0/input 4bit_adder_0/full_adder_0/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 4bit_adder_0/full_adder_0/or_0/inverter_0/input 4bit_adder_0/full_adder_0/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 4bit_adder_0/full_adder_0/half_adder_1/nand_0/out 4bit_adder_0/full_adder_0/half_adder_1/input1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1007 4bit_adder_0/full_adder_0/half_adder_1/nand_0/out 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 4bit_adder_0/full_adder_0/half_adder_1/nand_0/out 4bit_adder_0/full_adder_0/half_adder_1/input1 4bit_adder_0/full_adder_0/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1009 4bit_adder_0/full_adder_0/half_adder_1/nand_0/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 4ba2_b0 4bit_adder_0/full_adder_0/half_adder_1/nand_1/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 4ba2_b0 4bit_adder_0/full_adder_0/half_adder_1/nand_0/out VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 4ba2_b0 4bit_adder_0/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_0/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1013 4bit_adder_0/full_adder_0/half_adder_1/nand_1/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 4bit_adder_0/full_adder_0/or_0/input1 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1015 4bit_adder_0/full_adder_0/or_0/input1 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 4bit_adder_0/full_adder_0/or_0/input1 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_0/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1017 4bit_adder_0/full_adder_0/half_adder_1/nand_2/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_0/Cin VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 4bit_adder_0/full_adder_0/half_adder_1/a_59_n27# 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1020 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_0/half_adder_1/input1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 4bit_adder_0/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_0/Cin 4bit_adder_0/full_adder_0/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_0/Cin 4bit_adder_0/full_adder_0/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1023 4bit_adder_0/full_adder_0/half_adder_1/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 4bit_adder_0/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1025 4bit_adder_0/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_0/Cin VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 4bit_adder_0/full_adder_0/half_adder_0/nand_0/out 4ba1_a1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1027 4bit_adder_0/full_adder_0/half_adder_0/nand_0/out 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 4bit_adder_0/full_adder_0/half_adder_0/nand_0/out 4ba1_a1 4bit_adder_0/full_adder_0/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1029 4bit_adder_0/full_adder_0/half_adder_0/nand_0/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 4bit_adder_0/full_adder_0/half_adder_1/input1 4bit_adder_0/full_adder_0/half_adder_0/nand_1/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1031 4bit_adder_0/full_adder_0/half_adder_1/input1 4bit_adder_0/full_adder_0/half_adder_0/nand_0/out VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 4bit_adder_0/full_adder_0/half_adder_1/input1 4bit_adder_0/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1033 4bit_adder_0/full_adder_0/half_adder_0/nand_1/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 4bit_adder_0/full_adder_0/or_0/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 4bit_adder_0/full_adder_0/or_0/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 4bit_adder_0/full_adder_0/or_0/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1037 4bit_adder_0/full_adder_0/half_adder_0/nand_2/a_3_n27# 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 4ba1_b1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1039 4bit_adder_0/full_adder_0/half_adder_0/a_59_n27# 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1040 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 4ba1_a1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 4bit_adder_0/full_adder_0/half_adder_0/nand_1/input2 4ba1_b1 4bit_adder_0/full_adder_0/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1042 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 4ba1_b1 4bit_adder_0/full_adder_0/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1043 4bit_adder_0/full_adder_0/half_adder_0/a_3_n27# 4ba1_a1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 4bit_adder_0/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1045 4bit_adder_0/full_adder_0/half_adder_0/nand_1/input2 4ba1_b1 VDD 4bit_adder_0/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1046 4bit_adder_0/full_adder_2/Cin 4bit_adder_0/full_adder_1/or_0/inverter_0/input VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1047 4bit_adder_0/full_adder_2/Cin 4bit_adder_0/full_adder_1/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1048 4bit_adder_0/full_adder_1/or_0/inverter_0/input 4bit_adder_0/full_adder_1/or_0/input2 4bit_adder_0/full_adder_1/or_0/a_3_n6# 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1049 4bit_adder_0/full_adder_1/or_0/a_3_n6# 4bit_adder_0/full_adder_1/or_0/input1 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1050 4bit_adder_0/full_adder_1/or_0/inverter_0/input 4bit_adder_0/full_adder_1/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1051 4bit_adder_0/full_adder_1/or_0/inverter_0/input 4bit_adder_0/full_adder_1/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1052 4bit_adder_0/full_adder_1/half_adder_1/nand_0/out 4bit_adder_0/full_adder_1/half_adder_1/input1 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1053 4bit_adder_0/full_adder_1/half_adder_1/nand_0/out 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1054 4bit_adder_0/full_adder_1/half_adder_1/nand_0/out 4bit_adder_0/full_adder_1/half_adder_1/input1 4bit_adder_0/full_adder_1/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1055 4bit_adder_0/full_adder_1/half_adder_1/nand_0/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1056 4ba2_b1 4bit_adder_0/full_adder_1/half_adder_1/nand_1/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1057 4ba2_b1 4bit_adder_0/full_adder_1/half_adder_1/nand_0/out VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1058 4ba2_b1 4bit_adder_0/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_1/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1059 4bit_adder_0/full_adder_1/half_adder_1/nand_1/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1060 4bit_adder_0/full_adder_1/or_0/input1 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1061 4bit_adder_0/full_adder_1/or_0/input1 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1062 4bit_adder_0/full_adder_1/or_0/input1 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_1/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1063 4bit_adder_0/full_adder_1/half_adder_1/nand_2/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1064 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_1/Cin VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1065 4bit_adder_0/full_adder_1/half_adder_1/a_59_n27# 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1066 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_1/half_adder_1/input1 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1067 4bit_adder_0/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_1/Cin 4bit_adder_0/full_adder_1/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1068 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_1/Cin 4bit_adder_0/full_adder_1/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1069 4bit_adder_0/full_adder_1/half_adder_1/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1070 4bit_adder_0/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1071 4bit_adder_0/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_1/Cin VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1072 4bit_adder_0/full_adder_1/half_adder_0/nand_0/out 4ba1_a2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1073 4bit_adder_0/full_adder_1/half_adder_0/nand_0/out 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1074 4bit_adder_0/full_adder_1/half_adder_0/nand_0/out 4ba1_a2 4bit_adder_0/full_adder_1/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1075 4bit_adder_0/full_adder_1/half_adder_0/nand_0/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1076 4bit_adder_0/full_adder_1/half_adder_1/input1 4bit_adder_0/full_adder_1/half_adder_0/nand_1/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1077 4bit_adder_0/full_adder_1/half_adder_1/input1 4bit_adder_0/full_adder_1/half_adder_0/nand_0/out VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1078 4bit_adder_0/full_adder_1/half_adder_1/input1 4bit_adder_0/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1079 4bit_adder_0/full_adder_1/half_adder_0/nand_1/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1080 4bit_adder_0/full_adder_1/or_0/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1081 4bit_adder_0/full_adder_1/or_0/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1082 4bit_adder_0/full_adder_1/or_0/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1083 4bit_adder_0/full_adder_1/half_adder_0/nand_2/a_3_n27# 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1084 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 4ba1_b2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1085 4bit_adder_0/full_adder_1/half_adder_0/a_59_n27# 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1086 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 4ba1_a2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1087 4bit_adder_0/full_adder_1/half_adder_0/nand_1/input2 4ba1_b2 4bit_adder_0/full_adder_1/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1088 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 4ba1_b2 4bit_adder_0/full_adder_1/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1089 4bit_adder_0/full_adder_1/half_adder_0/a_3_n27# 4ba1_a2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1090 4bit_adder_0/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1091 4bit_adder_0/full_adder_1/half_adder_0/nand_1/input2 4ba1_b2 VDD 4bit_adder_0/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1092 4ba2_b3 4bit_adder_0/full_adder_2/or_0/inverter_0/input VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1093 4ba2_b3 4bit_adder_0/full_adder_2/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1094 4bit_adder_0/full_adder_2/or_0/inverter_0/input 4bit_adder_0/full_adder_2/or_0/input2 4bit_adder_0/full_adder_2/or_0/a_3_n6# 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1095 4bit_adder_0/full_adder_2/or_0/a_3_n6# 4bit_adder_0/full_adder_2/or_0/input1 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1096 4bit_adder_0/full_adder_2/or_0/inverter_0/input 4bit_adder_0/full_adder_2/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1097 4bit_adder_0/full_adder_2/or_0/inverter_0/input 4bit_adder_0/full_adder_2/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1098 4bit_adder_0/full_adder_2/half_adder_1/nand_0/out 4bit_adder_0/full_adder_2/half_adder_1/input1 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1099 4bit_adder_0/full_adder_2/half_adder_1/nand_0/out 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1100 4bit_adder_0/full_adder_2/half_adder_1/nand_0/out 4bit_adder_0/full_adder_2/half_adder_1/input1 4bit_adder_0/full_adder_2/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1101 4bit_adder_0/full_adder_2/half_adder_1/nand_0/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1102 4ba2_b2 4bit_adder_0/full_adder_2/half_adder_1/nand_1/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1103 4ba2_b2 4bit_adder_0/full_adder_2/half_adder_1/nand_0/out VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1104 4ba2_b2 4bit_adder_0/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_2/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1105 4bit_adder_0/full_adder_2/half_adder_1/nand_1/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1106 4bit_adder_0/full_adder_2/or_0/input1 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1107 4bit_adder_0/full_adder_2/or_0/input1 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1108 4bit_adder_0/full_adder_2/or_0/input1 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_2/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1109 4bit_adder_0/full_adder_2/half_adder_1/nand_2/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1110 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_2/Cin VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1111 4bit_adder_0/full_adder_2/half_adder_1/a_59_n27# 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1112 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_2/half_adder_1/input1 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1113 4bit_adder_0/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_2/Cin 4bit_adder_0/full_adder_2/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1114 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_0/full_adder_2/Cin 4bit_adder_0/full_adder_2/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1115 4bit_adder_0/full_adder_2/half_adder_1/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1116 4bit_adder_0/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1117 4bit_adder_0/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_0/full_adder_2/Cin VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1118 4bit_adder_0/full_adder_2/half_adder_0/nand_0/out 4ba1_a3 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1119 4bit_adder_0/full_adder_2/half_adder_0/nand_0/out 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1120 4bit_adder_0/full_adder_2/half_adder_0/nand_0/out 4ba1_a3 4bit_adder_0/full_adder_2/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1121 4bit_adder_0/full_adder_2/half_adder_0/nand_0/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1122 4bit_adder_0/full_adder_2/half_adder_1/input1 4bit_adder_0/full_adder_2/half_adder_0/nand_1/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1123 4bit_adder_0/full_adder_2/half_adder_1/input1 4bit_adder_0/full_adder_2/half_adder_0/nand_0/out VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1124 4bit_adder_0/full_adder_2/half_adder_1/input1 4bit_adder_0/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1125 4bit_adder_0/full_adder_2/half_adder_0/nand_1/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1126 4bit_adder_0/full_adder_2/or_0/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1127 4bit_adder_0/full_adder_2/or_0/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1128 4bit_adder_0/full_adder_2/or_0/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1129 4bit_adder_0/full_adder_2/half_adder_0/nand_2/a_3_n27# 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1130 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 GND VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1131 4bit_adder_0/full_adder_2/half_adder_0/a_59_n27# 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1132 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 4ba1_a3 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1133 4bit_adder_0/full_adder_2/half_adder_0/nand_1/input2 GND 4bit_adder_0/full_adder_2/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1134 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 GND 4bit_adder_0/full_adder_2/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1135 4bit_adder_0/full_adder_2/half_adder_0/a_3_n27# 4ba1_a3 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1136 4bit_adder_0/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_0/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1137 4bit_adder_0/full_adder_2/half_adder_0/nand_1/input2 GND VDD 4bit_adder_0/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1138 4bit_adder_0/half_adder_0/nand_0/out 4ba1_a0 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1139 4bit_adder_0/half_adder_0/nand_0/out 4bit_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1140 4bit_adder_0/half_adder_0/nand_0/out 4ba1_a0 4bit_adder_0/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1141 4bit_adder_0/half_adder_0/nand_0/a_3_n27# 4bit_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1142 P1 4bit_adder_0/half_adder_0/nand_1/input2 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1143 P1 4bit_adder_0/half_adder_0/nand_0/out VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1144 P1 4bit_adder_0/half_adder_0/nand_1/input2 4bit_adder_0/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1145 4bit_adder_0/half_adder_0/nand_1/a_3_n27# 4bit_adder_0/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1146 4bit_adder_0/full_adder_0/Cin 4bit_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1147 4bit_adder_0/full_adder_0/Cin 4bit_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1148 4bit_adder_0/full_adder_0/Cin 4bit_adder_0/half_adder_0/nand_2/input2 4bit_adder_0/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1149 4bit_adder_0/half_adder_0/nand_2/a_3_n27# 4bit_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1150 4bit_adder_0/half_adder_0/nand_2/input2 4ba1_b0 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1151 4bit_adder_0/half_adder_0/a_59_n27# 4bit_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1152 4bit_adder_0/half_adder_0/nand_2/input2 4ba1_a0 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1153 4bit_adder_0/half_adder_0/nand_1/input2 4ba1_b0 4bit_adder_0/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1154 4bit_adder_0/half_adder_0/nand_2/input2 4ba1_b0 4bit_adder_0/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1155 4bit_adder_0/half_adder_0/a_3_n27# 4ba1_a0 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1156 4bit_adder_0/half_adder_0/nand_1/input2 4bit_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1157 4bit_adder_0/half_adder_0/nand_1/input2 4ba1_b0 VDD 4bit_adder_0/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1158 4bit_adder_1/full_adder_1/Cin 4bit_adder_1/full_adder_0/or_0/inverter_0/input VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1159 4bit_adder_1/full_adder_1/Cin 4bit_adder_1/full_adder_0/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1160 4bit_adder_1/full_adder_0/or_0/inverter_0/input 4bit_adder_1/full_adder_0/or_0/input2 4bit_adder_1/full_adder_0/or_0/a_3_n6# 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1161 4bit_adder_1/full_adder_0/or_0/a_3_n6# 4bit_adder_1/full_adder_0/or_0/input1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1162 4bit_adder_1/full_adder_0/or_0/inverter_0/input 4bit_adder_1/full_adder_0/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1163 4bit_adder_1/full_adder_0/or_0/inverter_0/input 4bit_adder_1/full_adder_0/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1164 4bit_adder_1/full_adder_0/half_adder_1/nand_0/out 4bit_adder_1/full_adder_0/half_adder_1/input1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1165 4bit_adder_1/full_adder_0/half_adder_1/nand_0/out 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1166 4bit_adder_1/full_adder_0/half_adder_1/nand_0/out 4bit_adder_1/full_adder_0/half_adder_1/input1 4bit_adder_1/full_adder_0/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1167 4bit_adder_1/full_adder_0/half_adder_1/nand_0/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1168 4ba3_b0 4bit_adder_1/full_adder_0/half_adder_1/nand_1/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1169 4ba3_b0 4bit_adder_1/full_adder_0/half_adder_1/nand_0/out VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1170 4ba3_b0 4bit_adder_1/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_0/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1171 4bit_adder_1/full_adder_0/half_adder_1/nand_1/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1172 4bit_adder_1/full_adder_0/or_0/input1 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1173 4bit_adder_1/full_adder_0/or_0/input1 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1174 4bit_adder_1/full_adder_0/or_0/input1 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_0/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1175 4bit_adder_1/full_adder_0/half_adder_1/nand_2/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1176 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_0/Cin VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1177 4bit_adder_1/full_adder_0/half_adder_1/a_59_n27# 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1178 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_0/half_adder_1/input1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1179 4bit_adder_1/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_0/Cin 4bit_adder_1/full_adder_0/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1180 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_0/Cin 4bit_adder_1/full_adder_0/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1181 4bit_adder_1/full_adder_0/half_adder_1/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1182 4bit_adder_1/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1183 4bit_adder_1/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_0/Cin VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1184 4bit_adder_1/full_adder_0/half_adder_0/nand_0/out 4ba2_a1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1185 4bit_adder_1/full_adder_0/half_adder_0/nand_0/out 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1186 4bit_adder_1/full_adder_0/half_adder_0/nand_0/out 4ba2_a1 4bit_adder_1/full_adder_0/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1187 4bit_adder_1/full_adder_0/half_adder_0/nand_0/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1188 4bit_adder_1/full_adder_0/half_adder_1/input1 4bit_adder_1/full_adder_0/half_adder_0/nand_1/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1189 4bit_adder_1/full_adder_0/half_adder_1/input1 4bit_adder_1/full_adder_0/half_adder_0/nand_0/out VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1190 4bit_adder_1/full_adder_0/half_adder_1/input1 4bit_adder_1/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1191 4bit_adder_1/full_adder_0/half_adder_0/nand_1/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1192 4bit_adder_1/full_adder_0/or_0/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1193 4bit_adder_1/full_adder_0/or_0/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1194 4bit_adder_1/full_adder_0/or_0/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1195 4bit_adder_1/full_adder_0/half_adder_0/nand_2/a_3_n27# 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1196 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 4ba2_b1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1197 4bit_adder_1/full_adder_0/half_adder_0/a_59_n27# 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1198 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 4ba2_a1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1199 4bit_adder_1/full_adder_0/half_adder_0/nand_1/input2 4ba2_b1 4bit_adder_1/full_adder_0/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1200 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 4ba2_b1 4bit_adder_1/full_adder_0/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1201 4bit_adder_1/full_adder_0/half_adder_0/a_3_n27# 4ba2_a1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1202 4bit_adder_1/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1203 4bit_adder_1/full_adder_0/half_adder_0/nand_1/input2 4ba2_b1 VDD 4bit_adder_1/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1204 4bit_adder_1/full_adder_2/Cin 4bit_adder_1/full_adder_1/or_0/inverter_0/input VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1205 4bit_adder_1/full_adder_2/Cin 4bit_adder_1/full_adder_1/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1206 4bit_adder_1/full_adder_1/or_0/inverter_0/input 4bit_adder_1/full_adder_1/or_0/input2 4bit_adder_1/full_adder_1/or_0/a_3_n6# 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1207 4bit_adder_1/full_adder_1/or_0/a_3_n6# 4bit_adder_1/full_adder_1/or_0/input1 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1208 4bit_adder_1/full_adder_1/or_0/inverter_0/input 4bit_adder_1/full_adder_1/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1209 4bit_adder_1/full_adder_1/or_0/inverter_0/input 4bit_adder_1/full_adder_1/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1210 4bit_adder_1/full_adder_1/half_adder_1/nand_0/out 4bit_adder_1/full_adder_1/half_adder_1/input1 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1211 4bit_adder_1/full_adder_1/half_adder_1/nand_0/out 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1212 4bit_adder_1/full_adder_1/half_adder_1/nand_0/out 4bit_adder_1/full_adder_1/half_adder_1/input1 4bit_adder_1/full_adder_1/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1213 4bit_adder_1/full_adder_1/half_adder_1/nand_0/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1214 4ba3_b1 4bit_adder_1/full_adder_1/half_adder_1/nand_1/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1215 4ba3_b1 4bit_adder_1/full_adder_1/half_adder_1/nand_0/out VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1216 4ba3_b1 4bit_adder_1/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_1/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1217 4bit_adder_1/full_adder_1/half_adder_1/nand_1/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1218 4bit_adder_1/full_adder_1/or_0/input1 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1219 4bit_adder_1/full_adder_1/or_0/input1 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1220 4bit_adder_1/full_adder_1/or_0/input1 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_1/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1221 4bit_adder_1/full_adder_1/half_adder_1/nand_2/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1222 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_1/Cin VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1223 4bit_adder_1/full_adder_1/half_adder_1/a_59_n27# 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1224 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_1/half_adder_1/input1 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1225 4bit_adder_1/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_1/Cin 4bit_adder_1/full_adder_1/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1226 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_1/Cin 4bit_adder_1/full_adder_1/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1227 4bit_adder_1/full_adder_1/half_adder_1/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1228 4bit_adder_1/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1229 4bit_adder_1/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_1/Cin VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1230 4bit_adder_1/full_adder_1/half_adder_0/nand_0/out 4ba2_a2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1231 4bit_adder_1/full_adder_1/half_adder_0/nand_0/out 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1232 4bit_adder_1/full_adder_1/half_adder_0/nand_0/out 4ba2_a2 4bit_adder_1/full_adder_1/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1233 4bit_adder_1/full_adder_1/half_adder_0/nand_0/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1234 4bit_adder_1/full_adder_1/half_adder_1/input1 4bit_adder_1/full_adder_1/half_adder_0/nand_1/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1235 4bit_adder_1/full_adder_1/half_adder_1/input1 4bit_adder_1/full_adder_1/half_adder_0/nand_0/out VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1236 4bit_adder_1/full_adder_1/half_adder_1/input1 4bit_adder_1/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1237 4bit_adder_1/full_adder_1/half_adder_0/nand_1/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1238 4bit_adder_1/full_adder_1/or_0/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1239 4bit_adder_1/full_adder_1/or_0/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1240 4bit_adder_1/full_adder_1/or_0/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1241 4bit_adder_1/full_adder_1/half_adder_0/nand_2/a_3_n27# 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1242 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 4ba2_b2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1243 4bit_adder_1/full_adder_1/half_adder_0/a_59_n27# 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1244 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 4ba2_a2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1245 4bit_adder_1/full_adder_1/half_adder_0/nand_1/input2 4ba2_b2 4bit_adder_1/full_adder_1/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1246 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 4ba2_b2 4bit_adder_1/full_adder_1/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1247 4bit_adder_1/full_adder_1/half_adder_0/a_3_n27# 4ba2_a2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1248 4bit_adder_1/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1249 4bit_adder_1/full_adder_1/half_adder_0/nand_1/input2 4ba2_b2 VDD 4bit_adder_1/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1250 4ba3_b3 4bit_adder_1/full_adder_2/or_0/inverter_0/input VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1251 4ba3_b3 4bit_adder_1/full_adder_2/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1252 4bit_adder_1/full_adder_2/or_0/inverter_0/input 4bit_adder_1/full_adder_2/or_0/input2 4bit_adder_1/full_adder_2/or_0/a_3_n6# 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1253 4bit_adder_1/full_adder_2/or_0/a_3_n6# 4bit_adder_1/full_adder_2/or_0/input1 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1254 4bit_adder_1/full_adder_2/or_0/inverter_0/input 4bit_adder_1/full_adder_2/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1255 4bit_adder_1/full_adder_2/or_0/inverter_0/input 4bit_adder_1/full_adder_2/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1256 4bit_adder_1/full_adder_2/half_adder_1/nand_0/out 4bit_adder_1/full_adder_2/half_adder_1/input1 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1257 4bit_adder_1/full_adder_2/half_adder_1/nand_0/out 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1258 4bit_adder_1/full_adder_2/half_adder_1/nand_0/out 4bit_adder_1/full_adder_2/half_adder_1/input1 4bit_adder_1/full_adder_2/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1259 4bit_adder_1/full_adder_2/half_adder_1/nand_0/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1260 4ba3_b2 4bit_adder_1/full_adder_2/half_adder_1/nand_1/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1261 4ba3_b2 4bit_adder_1/full_adder_2/half_adder_1/nand_0/out VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1262 4ba3_b2 4bit_adder_1/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_2/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1263 4bit_adder_1/full_adder_2/half_adder_1/nand_1/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1264 4bit_adder_1/full_adder_2/or_0/input1 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1265 4bit_adder_1/full_adder_2/or_0/input1 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1266 4bit_adder_1/full_adder_2/or_0/input1 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_2/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1267 4bit_adder_1/full_adder_2/half_adder_1/nand_2/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1268 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_2/Cin VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1269 4bit_adder_1/full_adder_2/half_adder_1/a_59_n27# 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1270 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_2/half_adder_1/input1 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1271 4bit_adder_1/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_2/Cin 4bit_adder_1/full_adder_2/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1272 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_1/full_adder_2/Cin 4bit_adder_1/full_adder_2/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1273 4bit_adder_1/full_adder_2/half_adder_1/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1274 4bit_adder_1/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1275 4bit_adder_1/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_1/full_adder_2/Cin VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1276 4bit_adder_1/full_adder_2/half_adder_0/nand_0/out 4ba2_a3 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1277 4bit_adder_1/full_adder_2/half_adder_0/nand_0/out 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1278 4bit_adder_1/full_adder_2/half_adder_0/nand_0/out 4ba2_a3 4bit_adder_1/full_adder_2/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1279 4bit_adder_1/full_adder_2/half_adder_0/nand_0/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1280 4bit_adder_1/full_adder_2/half_adder_1/input1 4bit_adder_1/full_adder_2/half_adder_0/nand_1/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1281 4bit_adder_1/full_adder_2/half_adder_1/input1 4bit_adder_1/full_adder_2/half_adder_0/nand_0/out VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1282 4bit_adder_1/full_adder_2/half_adder_1/input1 4bit_adder_1/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1283 4bit_adder_1/full_adder_2/half_adder_0/nand_1/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1284 4bit_adder_1/full_adder_2/or_0/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1285 4bit_adder_1/full_adder_2/or_0/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1286 4bit_adder_1/full_adder_2/or_0/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1287 4bit_adder_1/full_adder_2/half_adder_0/nand_2/a_3_n27# 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1288 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 4ba2_b3 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1289 4bit_adder_1/full_adder_2/half_adder_0/a_59_n27# 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1290 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 4ba2_a3 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1291 4bit_adder_1/full_adder_2/half_adder_0/nand_1/input2 4ba2_b3 4bit_adder_1/full_adder_2/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1292 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 4ba2_b3 4bit_adder_1/full_adder_2/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1293 4bit_adder_1/full_adder_2/half_adder_0/a_3_n27# 4ba2_a3 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1294 4bit_adder_1/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_1/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1295 4bit_adder_1/full_adder_2/half_adder_0/nand_1/input2 4ba2_b3 VDD 4bit_adder_1/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1296 4bit_adder_1/half_adder_0/nand_0/out 4ba2_a0 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1297 4bit_adder_1/half_adder_0/nand_0/out 4bit_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1298 4bit_adder_1/half_adder_0/nand_0/out 4ba2_a0 4bit_adder_1/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1299 4bit_adder_1/half_adder_0/nand_0/a_3_n27# 4bit_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1300 P2 4bit_adder_1/half_adder_0/nand_1/input2 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1301 P2 4bit_adder_1/half_adder_0/nand_0/out VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1302 P2 4bit_adder_1/half_adder_0/nand_1/input2 4bit_adder_1/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1303 4bit_adder_1/half_adder_0/nand_1/a_3_n27# 4bit_adder_1/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1304 4bit_adder_1/full_adder_0/Cin 4bit_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1305 4bit_adder_1/full_adder_0/Cin 4bit_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1306 4bit_adder_1/full_adder_0/Cin 4bit_adder_1/half_adder_0/nand_2/input2 4bit_adder_1/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1307 4bit_adder_1/half_adder_0/nand_2/a_3_n27# 4bit_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1308 4bit_adder_1/half_adder_0/nand_2/input2 4ba2_b0 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1309 4bit_adder_1/half_adder_0/a_59_n27# 4bit_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1310 4bit_adder_1/half_adder_0/nand_2/input2 4ba2_a0 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1311 4bit_adder_1/half_adder_0/nand_1/input2 4ba2_b0 4bit_adder_1/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1312 4bit_adder_1/half_adder_0/nand_2/input2 4ba2_b0 4bit_adder_1/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1313 4bit_adder_1/half_adder_0/a_3_n27# 4ba2_a0 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1314 4bit_adder_1/half_adder_0/nand_1/input2 4bit_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1315 4bit_adder_1/half_adder_0/nand_1/input2 4ba2_b0 VDD 4bit_adder_1/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1316 4bit_adder_2/full_adder_1/Cin 4bit_adder_2/full_adder_0/or_0/inverter_0/input VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1317 4bit_adder_2/full_adder_1/Cin 4bit_adder_2/full_adder_0/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1318 4bit_adder_2/full_adder_0/or_0/inverter_0/input 4bit_adder_2/full_adder_0/or_0/input2 4bit_adder_2/full_adder_0/or_0/a_3_n6# 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1319 4bit_adder_2/full_adder_0/or_0/a_3_n6# 4bit_adder_2/full_adder_0/or_0/input1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1320 4bit_adder_2/full_adder_0/or_0/inverter_0/input 4bit_adder_2/full_adder_0/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1321 4bit_adder_2/full_adder_0/or_0/inverter_0/input 4bit_adder_2/full_adder_0/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1322 4bit_adder_2/full_adder_0/half_adder_1/nand_0/out 4bit_adder_2/full_adder_0/half_adder_1/input1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1323 4bit_adder_2/full_adder_0/half_adder_1/nand_0/out 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1324 4bit_adder_2/full_adder_0/half_adder_1/nand_0/out 4bit_adder_2/full_adder_0/half_adder_1/input1 4bit_adder_2/full_adder_0/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1325 4bit_adder_2/full_adder_0/half_adder_1/nand_0/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1326 P4 4bit_adder_2/full_adder_0/half_adder_1/nand_1/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1327 P4 4bit_adder_2/full_adder_0/half_adder_1/nand_0/out VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1328 P4 4bit_adder_2/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_0/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1329 4bit_adder_2/full_adder_0/half_adder_1/nand_1/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1330 4bit_adder_2/full_adder_0/or_0/input1 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1331 4bit_adder_2/full_adder_0/or_0/input1 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1332 4bit_adder_2/full_adder_0/or_0/input1 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_0/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1333 4bit_adder_2/full_adder_0/half_adder_1/nand_2/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1334 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_0/Cin VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1335 4bit_adder_2/full_adder_0/half_adder_1/a_59_n27# 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1336 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_0/half_adder_1/input1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1337 4bit_adder_2/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_0/Cin 4bit_adder_2/full_adder_0/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1338 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_0/Cin 4bit_adder_2/full_adder_0/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1339 4bit_adder_2/full_adder_0/half_adder_1/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1340 4bit_adder_2/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_0/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1341 4bit_adder_2/full_adder_0/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_0/Cin VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1342 4bit_adder_2/full_adder_0/half_adder_0/nand_0/out 4ba3_a1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1343 4bit_adder_2/full_adder_0/half_adder_0/nand_0/out 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1344 4bit_adder_2/full_adder_0/half_adder_0/nand_0/out 4ba3_a1 4bit_adder_2/full_adder_0/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1345 4bit_adder_2/full_adder_0/half_adder_0/nand_0/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1346 4bit_adder_2/full_adder_0/half_adder_1/input1 4bit_adder_2/full_adder_0/half_adder_0/nand_1/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1347 4bit_adder_2/full_adder_0/half_adder_1/input1 4bit_adder_2/full_adder_0/half_adder_0/nand_0/out VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1348 4bit_adder_2/full_adder_0/half_adder_1/input1 4bit_adder_2/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1349 4bit_adder_2/full_adder_0/half_adder_0/nand_1/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1350 4bit_adder_2/full_adder_0/or_0/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1351 4bit_adder_2/full_adder_0/or_0/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1352 4bit_adder_2/full_adder_0/or_0/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1353 4bit_adder_2/full_adder_0/half_adder_0/nand_2/a_3_n27# 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1354 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 4ba3_b1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1355 4bit_adder_2/full_adder_0/half_adder_0/a_59_n27# 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1356 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 4ba3_a1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1357 4bit_adder_2/full_adder_0/half_adder_0/nand_1/input2 4ba3_b1 4bit_adder_2/full_adder_0/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1358 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 4ba3_b1 4bit_adder_2/full_adder_0/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1359 4bit_adder_2/full_adder_0/half_adder_0/a_3_n27# 4ba3_a1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1360 4bit_adder_2/full_adder_0/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_0/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1361 4bit_adder_2/full_adder_0/half_adder_0/nand_1/input2 4ba3_b1 VDD 4bit_adder_2/full_adder_0/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1362 4bit_adder_2/full_adder_2/Cin 4bit_adder_2/full_adder_1/or_0/inverter_0/input VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1363 4bit_adder_2/full_adder_2/Cin 4bit_adder_2/full_adder_1/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1364 4bit_adder_2/full_adder_1/or_0/inverter_0/input 4bit_adder_2/full_adder_1/or_0/input2 4bit_adder_2/full_adder_1/or_0/a_3_n6# 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1365 4bit_adder_2/full_adder_1/or_0/a_3_n6# 4bit_adder_2/full_adder_1/or_0/input1 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1366 4bit_adder_2/full_adder_1/or_0/inverter_0/input 4bit_adder_2/full_adder_1/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1367 4bit_adder_2/full_adder_1/or_0/inverter_0/input 4bit_adder_2/full_adder_1/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1368 4bit_adder_2/full_adder_1/half_adder_1/nand_0/out 4bit_adder_2/full_adder_1/half_adder_1/input1 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1369 4bit_adder_2/full_adder_1/half_adder_1/nand_0/out 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1370 4bit_adder_2/full_adder_1/half_adder_1/nand_0/out 4bit_adder_2/full_adder_1/half_adder_1/input1 4bit_adder_2/full_adder_1/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1371 4bit_adder_2/full_adder_1/half_adder_1/nand_0/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1372 P5 4bit_adder_2/full_adder_1/half_adder_1/nand_1/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1373 P5 4bit_adder_2/full_adder_1/half_adder_1/nand_0/out VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1374 P5 4bit_adder_2/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_1/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1375 4bit_adder_2/full_adder_1/half_adder_1/nand_1/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1376 4bit_adder_2/full_adder_1/or_0/input1 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1377 4bit_adder_2/full_adder_1/or_0/input1 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1378 4bit_adder_2/full_adder_1/or_0/input1 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_1/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1379 4bit_adder_2/full_adder_1/half_adder_1/nand_2/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1380 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_1/Cin VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1381 4bit_adder_2/full_adder_1/half_adder_1/a_59_n27# 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1382 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_1/half_adder_1/input1 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1383 4bit_adder_2/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_1/Cin 4bit_adder_2/full_adder_1/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1384 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_1/Cin 4bit_adder_2/full_adder_1/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1385 4bit_adder_2/full_adder_1/half_adder_1/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1386 4bit_adder_2/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_1/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1387 4bit_adder_2/full_adder_1/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_1/Cin VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1388 4bit_adder_2/full_adder_1/half_adder_0/nand_0/out 4ba3_a2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1389 4bit_adder_2/full_adder_1/half_adder_0/nand_0/out 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1390 4bit_adder_2/full_adder_1/half_adder_0/nand_0/out 4ba3_a2 4bit_adder_2/full_adder_1/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1391 4bit_adder_2/full_adder_1/half_adder_0/nand_0/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1392 4bit_adder_2/full_adder_1/half_adder_1/input1 4bit_adder_2/full_adder_1/half_adder_0/nand_1/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1393 4bit_adder_2/full_adder_1/half_adder_1/input1 4bit_adder_2/full_adder_1/half_adder_0/nand_0/out VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1394 4bit_adder_2/full_adder_1/half_adder_1/input1 4bit_adder_2/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1395 4bit_adder_2/full_adder_1/half_adder_0/nand_1/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1396 4bit_adder_2/full_adder_1/or_0/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1397 4bit_adder_2/full_adder_1/or_0/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1398 4bit_adder_2/full_adder_1/or_0/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1399 4bit_adder_2/full_adder_1/half_adder_0/nand_2/a_3_n27# 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1400 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 4ba3_b2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1401 4bit_adder_2/full_adder_1/half_adder_0/a_59_n27# 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1402 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 4ba3_a2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1403 4bit_adder_2/full_adder_1/half_adder_0/nand_1/input2 4ba3_b2 4bit_adder_2/full_adder_1/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1404 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 4ba3_b2 4bit_adder_2/full_adder_1/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1405 4bit_adder_2/full_adder_1/half_adder_0/a_3_n27# 4ba3_a2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1406 4bit_adder_2/full_adder_1/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_1/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1407 4bit_adder_2/full_adder_1/half_adder_0/nand_1/input2 4ba3_b2 VDD 4bit_adder_2/full_adder_1/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1408 P7 4bit_adder_2/full_adder_2/or_0/inverter_0/input VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1409 P7 4bit_adder_2/full_adder_2/or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1410 4bit_adder_2/full_adder_2/or_0/inverter_0/input 4bit_adder_2/full_adder_2/or_0/input2 4bit_adder_2/full_adder_2/or_0/a_3_n6# 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1411 4bit_adder_2/full_adder_2/or_0/a_3_n6# 4bit_adder_2/full_adder_2/or_0/input1 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1412 4bit_adder_2/full_adder_2/or_0/inverter_0/input 4bit_adder_2/full_adder_2/or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1413 4bit_adder_2/full_adder_2/or_0/inverter_0/input 4bit_adder_2/full_adder_2/or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1414 4bit_adder_2/full_adder_2/half_adder_1/nand_0/out 4bit_adder_2/full_adder_2/half_adder_1/input1 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1415 4bit_adder_2/full_adder_2/half_adder_1/nand_0/out 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1416 4bit_adder_2/full_adder_2/half_adder_1/nand_0/out 4bit_adder_2/full_adder_2/half_adder_1/input1 4bit_adder_2/full_adder_2/half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1417 4bit_adder_2/full_adder_2/half_adder_1/nand_0/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1418 P6 4bit_adder_2/full_adder_2/half_adder_1/nand_1/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1419 P6 4bit_adder_2/full_adder_2/half_adder_1/nand_0/out VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1420 P6 4bit_adder_2/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_2/half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1421 4bit_adder_2/full_adder_2/half_adder_1/nand_1/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1422 4bit_adder_2/full_adder_2/or_0/input1 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1423 4bit_adder_2/full_adder_2/or_0/input1 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1424 4bit_adder_2/full_adder_2/or_0/input1 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_2/half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1425 4bit_adder_2/full_adder_2/half_adder_1/nand_2/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1426 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_2/Cin VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1427 4bit_adder_2/full_adder_2/half_adder_1/a_59_n27# 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1428 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_2/half_adder_1/input1 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1429 4bit_adder_2/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_2/Cin 4bit_adder_2/full_adder_2/half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1430 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 4bit_adder_2/full_adder_2/Cin 4bit_adder_2/full_adder_2/half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1431 4bit_adder_2/full_adder_2/half_adder_1/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1432 4bit_adder_2/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_2/half_adder_1/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1433 4bit_adder_2/full_adder_2/half_adder_1/nand_1/input2 4bit_adder_2/full_adder_2/Cin VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1434 4bit_adder_2/full_adder_2/half_adder_0/nand_0/out 4ba3_a3 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1435 4bit_adder_2/full_adder_2/half_adder_0/nand_0/out 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1436 4bit_adder_2/full_adder_2/half_adder_0/nand_0/out 4ba3_a3 4bit_adder_2/full_adder_2/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1437 4bit_adder_2/full_adder_2/half_adder_0/nand_0/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1438 4bit_adder_2/full_adder_2/half_adder_1/input1 4bit_adder_2/full_adder_2/half_adder_0/nand_1/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1439 4bit_adder_2/full_adder_2/half_adder_1/input1 4bit_adder_2/full_adder_2/half_adder_0/nand_0/out VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1440 4bit_adder_2/full_adder_2/half_adder_1/input1 4bit_adder_2/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1441 4bit_adder_2/full_adder_2/half_adder_0/nand_1/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1442 4bit_adder_2/full_adder_2/or_0/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1443 4bit_adder_2/full_adder_2/or_0/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1444 4bit_adder_2/full_adder_2/or_0/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1445 4bit_adder_2/full_adder_2/half_adder_0/nand_2/a_3_n27# 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1446 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 4ba3_b3 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1447 4bit_adder_2/full_adder_2/half_adder_0/a_59_n27# 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1448 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 4ba3_a3 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1449 4bit_adder_2/full_adder_2/half_adder_0/nand_1/input2 4ba3_b3 4bit_adder_2/full_adder_2/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1450 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 4ba3_b3 4bit_adder_2/full_adder_2/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1451 4bit_adder_2/full_adder_2/half_adder_0/a_3_n27# 4ba3_a3 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1452 4bit_adder_2/full_adder_2/half_adder_0/nand_1/input2 4bit_adder_2/full_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1453 4bit_adder_2/full_adder_2/half_adder_0/nand_1/input2 4ba3_b3 VDD 4bit_adder_2/full_adder_2/w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1454 4bit_adder_2/half_adder_0/nand_0/out 4ba3_a0 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1455 4bit_adder_2/half_adder_0/nand_0/out 4bit_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1456 4bit_adder_2/half_adder_0/nand_0/out 4ba3_a0 4bit_adder_2/half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1457 4bit_adder_2/half_adder_0/nand_0/a_3_n27# 4bit_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1458 P3 4bit_adder_2/half_adder_0/nand_1/input2 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1459 P3 4bit_adder_2/half_adder_0/nand_0/out VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1460 P3 4bit_adder_2/half_adder_0/nand_1/input2 4bit_adder_2/half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1461 4bit_adder_2/half_adder_0/nand_1/a_3_n27# 4bit_adder_2/half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1462 4bit_adder_2/full_adder_0/Cin 4bit_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1463 4bit_adder_2/full_adder_0/Cin 4bit_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1464 4bit_adder_2/full_adder_0/Cin 4bit_adder_2/half_adder_0/nand_2/input2 4bit_adder_2/half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1465 4bit_adder_2/half_adder_0/nand_2/a_3_n27# 4bit_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1466 4bit_adder_2/half_adder_0/nand_2/input2 4ba3_b0 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1467 4bit_adder_2/half_adder_0/a_59_n27# 4bit_adder_2/half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1468 4bit_adder_2/half_adder_0/nand_2/input2 4ba3_a0 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1469 4bit_adder_2/half_adder_0/nand_1/input2 4ba3_b0 4bit_adder_2/half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1470 4bit_adder_2/half_adder_0/nand_2/input2 4ba3_b0 4bit_adder_2/half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1471 4bit_adder_2/half_adder_0/a_3_n27# 4ba3_a0 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1472 4bit_adder_2/half_adder_0/nand_1/input2 4bit_adder_2/half_adder_0/nand_2/input2 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1473 4bit_adder_2/half_adder_0/nand_1/input2 4ba3_b0 VDD 4bit_adder_2/half_adder_0/w_n10_n12# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1474 4ba1_a0 4bit_and_0/nand_0/out VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1475 4ba1_a0 4bit_and_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1476 4bit_and_0/nand_0/out A0 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1477 4bit_and_0/nand_0/out B1 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1478 4bit_and_0/nand_0/out A0 4bit_and_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1479 4bit_and_0/nand_0/a_3_n27# B1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1480 4bit_and_0/a_109_13# B1 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1481 4bit_and_0/a_109_34# A1 4bit_and_0/a_109_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1482 4bit_and_0/a_297_13# B1 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1483 4bit_and_0/a_297_34# A3 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1484 4ba1_a1 4bit_and_0/a_109_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1485 4ba1_a3 4bit_and_0/a_297_34# VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1486 4bit_and_0/a_297_34# A3 4bit_and_0/a_297_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1487 4bit_and_0/a_203_34# B1 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1488 4ba1_a3 4bit_and_0/a_297_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1489 4bit_and_0/a_203_34# A2 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1490 4ba1_a2 4bit_and_0/a_203_34# VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1491 4bit_and_0/a_203_13# B1 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1492 4bit_and_0/a_203_34# A2 4bit_and_0/a_203_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1493 4bit_and_0/a_109_34# B1 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1494 4ba1_a2 4bit_and_0/a_203_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1495 4bit_and_0/a_109_34# A1 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1496 4bit_and_0/a_297_34# B1 VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1497 4ba1_a1 4bit_and_0/a_109_34# VDD 4bit_and_0/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1498 P0 4bit_and_1/nand_0/out VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1499 P0 4bit_and_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1500 4bit_and_1/nand_0/out A0 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1501 4bit_and_1/nand_0/out B0 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1502 4bit_and_1/nand_0/out A0 4bit_and_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1503 4bit_and_1/nand_0/a_3_n27# B0 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1504 4bit_and_1/a_109_13# B0 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1505 4bit_and_1/a_109_34# A1 4bit_and_1/a_109_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1506 4bit_and_1/a_297_13# B0 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1507 4bit_and_1/a_297_34# A3 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1508 4ba1_b0 4bit_and_1/a_109_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1509 4ba1_b2 4bit_and_1/a_297_34# VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1510 4bit_and_1/a_297_34# A3 4bit_and_1/a_297_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1511 4bit_and_1/a_203_34# B0 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1512 4ba1_b2 4bit_and_1/a_297_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1513 4bit_and_1/a_203_34# A2 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1514 4ba1_b1 4bit_and_1/a_203_34# VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1515 4bit_and_1/a_203_13# B0 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1516 4bit_and_1/a_203_34# A2 4bit_and_1/a_203_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1517 4bit_and_1/a_109_34# B0 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1518 4ba1_b1 4bit_and_1/a_203_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1519 4bit_and_1/a_109_34# A1 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1520 4bit_and_1/a_297_34# B0 VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1521 4ba1_b0 4bit_and_1/a_109_34# VDD 4bit_and_1/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1522 4ba2_a0 4bit_and_2/nand_0/out VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1523 4ba2_a0 4bit_and_2/nand_0/out GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1524 4bit_and_2/nand_0/out A0 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1525 4bit_and_2/nand_0/out B2 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1526 4bit_and_2/nand_0/out A0 4bit_and_2/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1527 4bit_and_2/nand_0/a_3_n27# B2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1528 4bit_and_2/a_109_13# B2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1529 4bit_and_2/a_109_34# A1 4bit_and_2/a_109_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1530 4bit_and_2/a_297_13# B2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1531 4bit_and_2/a_297_34# A3 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1532 4ba2_a1 4bit_and_2/a_109_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1533 4ba2_a3 4bit_and_2/a_297_34# VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1534 4bit_and_2/a_297_34# A3 4bit_and_2/a_297_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1535 4bit_and_2/a_203_34# B2 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1536 4ba2_a3 4bit_and_2/a_297_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1537 4bit_and_2/a_203_34# A2 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1538 4ba2_a2 4bit_and_2/a_203_34# VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1539 4bit_and_2/a_203_13# B2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1540 4bit_and_2/a_203_34# A2 4bit_and_2/a_203_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1541 4bit_and_2/a_109_34# B2 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1542 4ba2_a2 4bit_and_2/a_203_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1543 4bit_and_2/a_109_34# A1 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1544 4bit_and_2/a_297_34# B2 VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1545 4ba2_a1 4bit_and_2/a_109_34# VDD 4bit_and_2/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1546 4ba3_a0 4bit_and_3/nand_0/out VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1547 4ba3_a0 4bit_and_3/nand_0/out GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1548 4bit_and_3/nand_0/out A0 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1549 4bit_and_3/nand_0/out B3 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1550 4bit_and_3/nand_0/out A0 4bit_and_3/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1551 4bit_and_3/nand_0/a_3_n27# B3 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1552 4bit_and_3/a_109_13# B3 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1553 4bit_and_3/a_109_34# A1 4bit_and_3/a_109_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1554 4bit_and_3/a_297_13# B3 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1555 4bit_and_3/a_297_34# A3 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1556 4ba3_a1 4bit_and_3/a_109_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1557 4ba3_a3 4bit_and_3/a_297_34# VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1558 4bit_and_3/a_297_34# A3 4bit_and_3/a_297_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1559 4bit_and_3/a_203_34# B3 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1560 4ba3_a3 4bit_and_3/a_297_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1561 4bit_and_3/a_203_34# A2 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1562 4ba3_a2 4bit_and_3/a_203_34# VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+M1563 4bit_and_3/a_203_13# B3 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1564 4bit_and_3/a_203_34# A2 4bit_and_3/a_203_13# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1565 4bit_and_3/a_109_34# B3 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1566 4ba3_a2 4bit_and_3/a_203_34# GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1567 4bit_and_3/a_109_34# A1 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1568 4bit_and_3/a_297_34# B3 VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1569 4ba3_a1 4bit_and_3/a_109_34# VDD 4bit_and_3/w_87_27# pmos w=8 l=2
++  ad=40 pd=26 as=0 ps=0
+
+VDS vdd gnd 'SUPPLY'
+
+VA3 A3 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+VA2 A2 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+VA1 A1 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+VA0 A0 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+
+VA4 B3 gnd pulse 0 1 10ns 100ps 100ps 0.01ns 25ns
+VA5 B2 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+VA6 B1 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+VA7 B0 gnd pulse 0 1 10ns 100ps 100ps 10ns 25ns
+
+.tran 0.1n 200n
+
+.control
+
+run
+
+plot v(A3)+6 v(A2)+4 v(A1)+2 v(A0)
+plot v(B3)+6 v(B2)+4 v(B1)+2 v(B0)
+plot v(P0) v(P1)+2 v(P2)+4 v(P3)+6 v(P4)+8 V(P5)+10 V(P6)+12 V(P7)+14
+.endc

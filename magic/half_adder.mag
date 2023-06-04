@@ -1,0 +1,136 @@
+magic
+tech scmos
+timestamp 1669587295
+<< nwell >>
+rect -10 -12 106 8
+rect 152 -12 163 8
+rect 208 -12 219 8
+<< polysilicon >>
+rect 1 31 32 33
+rect 1 2 3 31
+rect 30 26 32 31
+rect 30 24 144 26
+rect 30 19 88 21
+rect 30 2 32 19
+rect 57 2 59 11
+rect 86 2 88 19
+rect 142 9 144 24
+rect 1 -23 3 -6
+rect 30 -23 32 -6
+rect 1 -35 3 -27
+rect 30 -35 32 -27
+rect 43 -44 45 -18
+rect 57 -23 59 -6
+rect 86 -23 88 -6
+rect 165 -17 171 -15
+rect 198 -22 211 -20
+rect 57 -35 59 -27
+rect 86 -35 88 -27
+rect 113 -44 115 -34
+rect 225 -35 256 -33
+rect 225 -44 227 -35
+rect 43 -46 227 -44
+<< ndiffusion >>
+rect 0 -27 1 -23
+rect 3 -27 4 -23
+rect 29 -27 30 -23
+rect 32 -27 33 -23
+rect 56 -27 57 -23
+rect 59 -27 60 -23
+rect 85 -27 86 -23
+rect 88 -27 89 -23
+<< pdiffusion >>
+rect 0 -6 1 2
+rect 3 -6 4 2
+rect 29 -6 30 2
+rect 32 -6 33 2
+rect 56 -6 57 2
+rect 59 -6 60 2
+rect 85 -6 86 2
+rect 88 -6 89 2
+<< metal1 >>
+rect -12 12 100 16
+rect -4 2 0 12
+rect 25 2 29 12
+rect 52 2 56 12
+rect 81 2 85 12
+rect 4 -14 8 -6
+rect 33 -14 37 -6
+rect 60 -14 64 -6
+rect 89 -14 93 -6
+rect 4 -18 42 -14
+rect 46 -18 53 -14
+rect 60 -18 95 -14
+rect 149 -18 161 -14
+rect 205 -18 208 -14
+rect 261 -18 263 -14
+rect 33 -23 37 -18
+rect 89 -23 93 -18
+rect 8 -27 25 -23
+rect 64 -27 81 -23
+rect -4 -36 0 -27
+rect 52 -36 56 -27
+rect 211 -29 215 -24
+rect -4 -40 113 -36
+rect 153 -40 174 -36
+rect 207 -40 228 -36
+<< metal2 >>
+rect 95 -51 99 -18
+rect 211 -51 215 -33
+rect 95 -55 215 -51
+<< ntransistor >>
+rect 1 -27 3 -23
+rect 30 -27 32 -23
+rect 57 -27 59 -23
+rect 86 -27 88 -23
+<< ptransistor >>
+rect 1 -6 3 2
+rect 30 -6 32 2
+rect 57 -6 59 2
+rect 86 -6 88 2
+<< polycontact >>
+rect 42 -18 46 -14
+rect 53 -18 57 -14
+rect 161 -18 165 -14
+rect 211 -24 215 -20
+<< ndcontact >>
+rect -4 -27 0 -23
+rect 4 -27 8 -23
+rect 25 -27 29 -23
+rect 33 -27 37 -23
+rect 52 -27 56 -23
+rect 60 -27 64 -23
+rect 81 -27 85 -23
+rect 89 -27 93 -23
+<< pdcontact >>
+rect -4 -6 0 2
+rect 4 -6 8 2
+rect 25 -6 29 2
+rect 33 -6 37 2
+rect 52 -6 56 2
+rect 60 -6 64 2
+rect 81 -6 85 2
+rect 89 -6 93 2
+<< m2contact >>
+rect 95 -18 99 -14
+rect 211 -33 215 -29
+use nand  nand_2
+timestamp 1669375195
+transform 1 0 224 0 1 0
+box -12 -40 44 16
+use nand  nand_1
+timestamp 1669375195
+transform 1 0 168 0 1 0
+box -12 -40 44 16
+use nand  nand_0
+timestamp 1669375195
+transform 1 0 112 0 1 0
+box -12 -40 44 16
+<< labels >>
+rlabel metal1 2 13 2 13 5 vdd
+rlabel polysilicon 31 -13 31 -13 1 input2
+rlabel metal1 13 -38 13 -38 1 gnd
+rlabel polysilicon 2 -13 2 -13 1 input1
+rlabel metal1 205 -18 208 -14 1 SUM_HA
+rlabel metal1 261 -18 263 -14 1 CARRY_HA
+<< end >>

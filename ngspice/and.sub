@@ -1,0 +1,21 @@
+.subckt and nodeA nodeB node6 vdd gnd
+
+Mp1 node5 nodeA vdd vdd CMOSP W = {width_P1} L = {LAMBDA}
++ AS={5*width_P1*LAMBDA} PS={10*LAMBDA+2*width_P1} AD={5*width_P1*LAMBDA} PD={10*LAMBDA+2*width_P1}
+
+Mp2 node5 nodeB vdd vdd CMOSP W = {width_P2} L = {LAMBDA}
++ AS={5*width_P2*LAMBDA} PS={10*LAMBDA+2*width_P2} AD={5*width_P2*LAMBDA} PD={10*LAMBDA+2*width_P2}
+
+Mn1 node4 nodeA gnd gnd CMOSN W = {width_N1} L = {LAMBDA}
++ AS={5*width_N1*LAMBDA} PS={10*LAMBDA+2*width_N1} AD={5*width_N1*LAMBDA} PD={10*LAMBDA+2*width_N1}
+
+Mn2 node5 nodeB node4 gnd CMOSN W = {width_N2} L = {LAMBDA}
++ AS={5*width_N2*LAMBDA} PS={10*LAMBDA+2*width_N2} AD={5*width_N2*LAMBDA} PD={10*LAMBDA+2*width_N2}
+
+Mp3 node6 node5 vdd vdd CMOSP W = {width_P1} L = {LAMBDA}
++ AS={5*width_P1*LAMBDA} PS={10*LAMBDA+2*width_P1} AD={5*width_P1*LAMBDA} PD={10*LAMBDA+2*width_P1}
+
+Mn3 node6 node5 gnd gnd CMOSN W = {width_N2} L = {LAMBDA}
++ AS={5*width_N2*LAMBDA} PS={10*LAMBDA+2*width_N2} AD={5*width_N2*LAMBDA} PD={10*LAMBDA+2*width_N2}
+
+.ends and 

@@ -1,0 +1,9 @@
+.subckt not nodeIn nodeOut vdd gnd
+
+Mp1 nodeOut nodeIn vdd vdd CMOSP W = {width_P1} L = {LAMBDA}
++ AS={5*width_P1*LAMBDA} PS={10*LAMBDA+2*width_P1} AD={5*width_P1*LAMBDA} PD={10*LAMBDA+2*width_P1}
+
+Mn1 nodeOut nodeIn gnd gnd CMOSN W = {width_N2} L = {LAMBDA}
++ AS={5*width_N2*LAMBDA} PS={10*LAMBDA+2*width_N2} AD={5*width_N2*LAMBDA} PD={10*LAMBDA+2*width_N2}
+
+.ends not

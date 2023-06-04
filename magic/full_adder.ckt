@@ -1,0 +1,112 @@
+.include 22nm_MGK.pm
+.param SUPPLY = 1
+
+vDD VDD GND 'SUPPLY'
+
+va input1 0 pulse 0 SUPPLY 0ns 100ps 100ps 5ns 20ns
+
+vb input2 0 pulse 0 SUPPLY 0ns 100ps 100ps 10ns 20ns
+
+vc Cin 0 pulse 0 SUPPLY 0ns 100ps 100ps 15ns 20ns
+
+.option scale = 0.01u
+
+M1000 CARRY_FA or_0/inverter_0/input VDD w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=880 ps=572
+M1001 CARRY_FA or_0/inverter_0/input GND Gnd nmos w=4 l=2
++  ad=20 pd=18 as=260 ps=234
+M1002 or_0/inverter_0/input or_0/input2 or_0/a_3_n6# w_556_43# pmos w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1003 or_0/a_3_n6# or_0/input1 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 or_0/inverter_0/input or_0/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 or_0/inverter_0/input or_0/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 half_adder_0/nand_0/out input1 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1007 half_adder_0/nand_0/out half_adder_0/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 half_adder_0/nand_0/out input1 half_adder_0/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1009 half_adder_0/nand_0/a_3_n27# half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 half_adder_1/input1 half_adder_0/nand_1/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 half_adder_1/input1 half_adder_0/nand_0/out VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 half_adder_1/input1 half_adder_0/nand_1/input2 half_adder_0/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1013 half_adder_0/nand_1/a_3_n27# half_adder_0/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 or_0/input2 half_adder_0/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1015 or_0/input2 half_adder_0/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 or_0/input2 half_adder_0/nand_2/input2 half_adder_0/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1017 half_adder_0/nand_2/a_3_n27# half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 half_adder_0/nand_2/input2 input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 half_adder_0/a_59_n27# half_adder_0/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1020 half_adder_0/nand_2/input2 input1 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 half_adder_0/nand_1/input2 input2 half_adder_0/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 half_adder_0/nand_2/input2 input2 half_adder_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1023 half_adder_0/a_3_n27# input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 half_adder_0/nand_1/input2 half_adder_0/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1025 half_adder_0/nand_1/input2 input2 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 half_adder_1/nand_0/out half_adder_1/input1 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1027 half_adder_1/nand_0/out half_adder_1/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 half_adder_1/nand_0/out half_adder_1/input1 half_adder_1/nand_0/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1029 half_adder_1/nand_0/a_3_n27# half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 SUM_FA half_adder_1/nand_1/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1031 SUM_FA half_adder_1/nand_0/out VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 SUM_FA half_adder_1/nand_1/input2 half_adder_1/nand_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1033 half_adder_1/nand_1/a_3_n27# half_adder_1/nand_0/out GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 or_0/input1 half_adder_1/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 or_0/input1 half_adder_1/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 or_0/input1 half_adder_1/nand_2/input2 half_adder_1/nand_2/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1037 half_adder_1/nand_2/a_3_n27# half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 half_adder_1/nand_2/input2 Cin VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1039 half_adder_1/a_59_n27# half_adder_1/nand_2/input2 GND Gnd nmos w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1040 half_adder_1/nand_2/input2 half_adder_1/input1 VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 half_adder_1/nand_1/input2 Cin half_adder_1/a_59_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1042 half_adder_1/nand_2/input2 Cin half_adder_1/a_3_n27# Gnd nmos w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1043 half_adder_1/a_3_n27# half_adder_1/input1 GND Gnd nmos w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 half_adder_1/nand_1/input2 half_adder_1/nand_2/input2 VDD w_556_43# pmos w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1045 half_adder_1/nand_1/input2 Cin VDD w_556_43# pmos w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+.tran 0.1ns 100ns
+.control
+run
+
+plot v(CARRY_FA)+8 v(SUM_FA)+6 v(input1)+4 v(input2)+2 v(Cin) 
+
+.endc

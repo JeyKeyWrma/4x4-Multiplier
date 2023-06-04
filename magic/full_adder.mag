@@ -1,0 +1,51 @@
+magic
+tech scmos
+timestamp 1669588506
+<< nwell >>
+rect 276 43 287 63
+rect 556 43 566 63
+<< polysilicon >>
+rect 218 76 295 78
+rect 218 42 220 76
+rect 320 74 322 76
+rect 9 37 15 39
+rect 500 39 503 41
+rect 565 38 574 40
+rect 39 34 43 36
+rect 275 -5 277 37
+rect 602 -5 604 20
+rect 275 -7 604 -5
+<< metal1 >>
+rect 0 69 3 72
+rect 553 37 561 41
+rect 662 38 666 42
+rect 6 16 8 18
+rect 6 15 9 16
+rect 280 15 289 19
+rect 556 15 572 19
+<< polycontact >>
+rect 216 38 220 42
+rect 273 37 277 41
+rect 496 38 500 42
+rect 561 37 565 41
+use or  or_0
+timestamp 1669378488
+transform 1 0 572 0 1 55
+box -12 -40 92 16
+use half_adder  half_adder_0
+timestamp 1669587295
+transform 1 0 12 0 1 55
+box -12 -55 268 33
+use half_adder  half_adder_1
+timestamp 1669587295
+transform 1 0 292 0 1 55
+box -12 -55 268 33
+<< labels >>
+rlabel metal1 0 71 3 72 3 VDD
+rlabel metal1 6 15 8 18 1 GND
+rlabel polysilicon 9 37 13 39 1 input1
+rlabel polysilicon 39 34 42 36 1 input2
+rlabel polysilicon 320 74 322 76 1 Cin
+rlabel polysilicon 500 39 503 41 1 SUM_FA
+rlabel metal1 664 38 666 42 7 CARRY_FA
+<< end >>

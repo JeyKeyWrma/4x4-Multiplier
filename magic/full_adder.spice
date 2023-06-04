@@ -1,0 +1,139 @@
+* SPICE3 file created from full_adder.ext - technology: scmos
+
+.option scale=1u
+
+M1000 CARRY_FA or_0/inverter_0/input VDD w_556_43# pfet w=8 l=2
++  ad=40 pd=26 as=880 ps=572
+M1001 CARRY_FA or_0/inverter_0/input GND Gnd nfet w=4 l=2
++  ad=20 pd=18 as=260 ps=234
+M1002 or_0/inverter_0/input or_0/input2 or_0/a_3_n6# w_556_43# pfet w=8 l=2
++  ad=40 pd=26 as=80 ps=52
+M1003 or_0/a_3_n6# or_0/input1 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1004 or_0/inverter_0/input or_0/input2 GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1005 or_0/inverter_0/input or_0/input1 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1006 half_adder_0/nand_0/out input1 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1007 half_adder_0/nand_0/out half_adder_0/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1008 half_adder_0/nand_0/out input1 half_adder_0/nand_0/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1009 half_adder_0/nand_0/a_3_n27# half_adder_0/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1010 half_adder_1/input1 half_adder_0/nand_1/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1011 half_adder_1/input1 half_adder_0/nand_0/out VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1012 half_adder_1/input1 half_adder_0/nand_1/input2 half_adder_0/nand_1/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1013 half_adder_0/nand_1/a_3_n27# half_adder_0/nand_0/out GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1014 or_0/input2 half_adder_0/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1015 or_0/input2 half_adder_0/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1016 or_0/input2 half_adder_0/nand_2/input2 half_adder_0/nand_2/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1017 half_adder_0/nand_2/a_3_n27# half_adder_0/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1018 half_adder_0/nand_2/input2 input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1019 half_adder_0/a_59_n27# half_adder_0/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1020 half_adder_0/nand_2/input2 input1 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1021 half_adder_0/nand_1/input2 input2 half_adder_0/a_59_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1022 half_adder_0/nand_2/input2 input2 half_adder_0/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1023 half_adder_0/a_3_n27# input1 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1024 half_adder_0/nand_1/input2 half_adder_0/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1025 half_adder_0/nand_1/input2 input2 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1026 half_adder_1/nand_0/out half_adder_1/input1 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1027 half_adder_1/nand_0/out half_adder_1/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1028 half_adder_1/nand_0/out half_adder_1/input1 half_adder_1/nand_0/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1029 half_adder_1/nand_0/a_3_n27# half_adder_1/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1030 SUM_FA half_adder_1/nand_1/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1031 SUM_FA half_adder_1/nand_0/out VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1032 SUM_FA half_adder_1/nand_1/input2 half_adder_1/nand_1/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1033 half_adder_1/nand_1/a_3_n27# half_adder_1/nand_0/out GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1034 or_0/input1 half_adder_1/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1035 or_0/input1 half_adder_1/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1036 or_0/input1 half_adder_1/nand_2/input2 half_adder_1/nand_2/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1037 half_adder_1/nand_2/a_3_n27# half_adder_1/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1038 half_adder_1/nand_2/input2 Cin VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1039 half_adder_1/a_59_n27# half_adder_1/nand_2/input2 GND Gnd nfet w=4 l=2
++  ad=40 pd=36 as=0 ps=0
+M1040 half_adder_1/nand_2/input2 half_adder_1/input1 VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+M1041 half_adder_1/nand_1/input2 Cin half_adder_1/a_59_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=0 ps=0
+M1042 half_adder_1/nand_2/input2 Cin half_adder_1/a_3_n27# Gnd nfet w=4 l=2
++  ad=20 pd=18 as=40 ps=36
+M1043 half_adder_1/a_3_n27# half_adder_1/input1 GND Gnd nfet w=4 l=2
++  ad=0 pd=0 as=0 ps=0
+M1044 half_adder_1/nand_1/input2 half_adder_1/nand_2/input2 VDD w_556_43# pfet w=8 l=2
++  ad=80 pd=52 as=0 ps=0
+M1045 half_adder_1/nand_1/input2 Cin VDD w_556_43# pfet w=8 l=2
++  ad=0 pd=0 as=0 ps=0
+C0 w_556_43# SUM_FA 2.26fF
+C1 w_556_43# half_adder_1/nand_0/out 5.43fF
+C2 w_556_43# or_0/input2 5.43fF
+C3 input1 w_556_43# 6.35fF
+C4 half_adder_0/nand_2/input2 w_556_43# 14.96fF
+C5 w_556_43# half_adder_0/nand_0/out 5.43fF
+C6 w_556_43# half_adder_1/nand_1/input2 5.43fF
+C7 w_556_43# half_adder_0/nand_1/input2 5.43fF
+C8 w_556_43# or_0/input1 5.43fF
+C9 w_556_43# Cin 6.35fF
+C10 VDD w_556_43# 24.82fF
+C11 w_556_43# input2 6.35fF
+C12 half_adder_1/nand_2/input2 w_556_43# 14.96fF
+C13 or_0/a_3_n6# w_556_43# 6.39fF
+C14 w_556_43# or_0/inverter_0/input 4.30fF
+C15 w_556_43# half_adder_1/input1 13.37fF
+C16 GND Gnd 149.79fF
+C17 half_adder_1/a_59_n27# Gnd 3.20fF
+C18 half_adder_1/a_3_n27# Gnd 3.20fF
+C19 Cin Gnd 6.85fF
+C20 half_adder_1/nand_2/a_3_n27# Gnd 3.20fF
+C21 or_0/input1 Gnd 18.80fF
+C22 half_adder_1/nand_1/a_3_n27# Gnd 3.20fF
+C23 SUM_FA Gnd 9.83fF
+C24 half_adder_1/nand_1/input2 Gnd 33.30fF
+C25 half_adder_1/nand_0/a_3_n27# Gnd 3.20fF
+C26 half_adder_1/nand_0/out Gnd 18.47fF
+C27 half_adder_1/input1 Gnd 88.34fF
+C28 half_adder_1/nand_2/input2 Gnd 22.89fF
+C29 half_adder_0/a_59_n27# Gnd 3.20fF
+C30 half_adder_0/a_3_n27# Gnd 3.20fF
+C31 input2 Gnd 7.33fF
+C32 half_adder_0/nand_2/a_3_n27# Gnd 3.20fF
+C33 or_0/input2 Gnd 31.72fF
+C34 half_adder_0/nand_1/a_3_n27# Gnd 3.20fF
+C35 half_adder_0/nand_1/input2 Gnd 33.30fF
+C36 half_adder_0/nand_0/a_3_n27# Gnd 3.20fF
+C37 half_adder_0/nand_0/out Gnd 18.47fF
+C38 VDD Gnd 134.98fF
+C39 input1 Gnd 54.20fF
+C40 half_adder_0/nand_2/input2 Gnd 22.89fF
+C41 CARRY_FA Gnd 6.25fF
+C42 or_0/inverter_0/input Gnd 22.12fF

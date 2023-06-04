@@ -1,0 +1,17 @@
+.subckt or nodeA nodeB nodeOut vdd gnd
+
+Mp1 node1 nodeA vdd vdd CMOSP W = {width_P1} L = {LAMBDA}
++ AS={5*width_P1*LAMBDA} PS={10*LAMBDA+2*width_P1} AD={5*width_P1*LAMBDA} PD={10*LAMBDA+2*width_P1}
+
+Mp2 node2 nodeB node1 vdd CMOSP W = {width_P2} L = {LAMBDA}
++ AS={5*width_P2*LAMBDA} PS={10*LAMBDA+2*width_P2} AD={5*width_P2*LAMBDA} PD={10*LAMBDA+2*width_P2}
+
+Mn1 node2 nodeA gnd gnd CMOSN W = {width_N1} L = {LAMBDA}
++ AS={5*width_N1*LAMBDA} PS={10*LAMBDA+2*width_N1} AD={5*width_N1*LAMBDA} PD={10*LAMBDA+2*width_N1}
+
+Mn2 node2 nodeB gnd gnd CMOSN W = {width_N2} L = {LAMBDA}
++ AS={5*width_N2*LAMBDA} PS={10*LAMBDA+2*width_N2} AD={5*width_N2*LAMBDA} PD={10*LAMBDA+2*width_N2}
+
+Xnot node2 nodeOut vdd gnd not
+
+.ends or
