@@ -21,5 +21,5 @@ Firstly NAND gate was realized and then the half adders, full adders and multipl
 ## HDL
 Verification of functionality of the multiplier was done using structural implementation. Different modules were built and then used these modules to build 4-bit Multiplier.
 
-## Propagation Delay
-After finding delays for all the possible paths in the multiplier the worst delay was found out to be **15.6598 ns**.
+## Results
+After finding delays for all the possible paths in the multiplier the worst delay was found out to be **15.6598 ns** and the leakage power can be found in path -  ngspice/pwr.txt
